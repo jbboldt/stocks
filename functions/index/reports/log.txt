@@ -1,0 +1,280 @@
+Fetching: ALK Abello
+Processing: ALK Abello
+Making Plots: ALK Abello
+
+ans =
+
+     0
+
+Fetching: ALK Abello
+Processing: ALK Abello
+Making Plots: ALK Abello
+if system_dependent('IsDebugMode')==1, dbstep; end
+lVol
+
+lVol =
+
+    4.2253
+    4.3892
+    4.7042
+    4.6675
+    4.5539
+    4.4346
+    4.4393
+    4.1732
+    4.0969
+    4.0334
+    3.9823
+    3.7853
+    4.1335
+    4.1106
+    4.5079
+    4.2175
+    4.4232
+    4.3820
+    4.4698
+    4.0374
+    4.2625
+    4.6875
+    4.2253
+    3.9085
+    3.7924
+    3.7853
+    4.2989
+    3.9823
+    3.9731
+    3.8062
+    3.6128
+    3.9031
+    3.8062
+    3.7993
+    4.0170
+    4.0128
+    4.2601
+    4.1106
+    4.0531
+    4.2014
+    4.2355
+    4.2788
+    4.1072
+    3.9868
+    3.8751
+    3.7243
+    4.1614
+    4.2041
+    4.3636
+    4.0334
+    3.8692
+    3.6721
+    3.9494
+    4.0828
+    3.9395
+    3.8808
+    3.6812
+    3.7709
+    3.9138
+    4.2601
+    3.8976
+    4.0719
+    3.8633
+    3.9494
+    3.9494
+    4.1673
+    3.9345
+    3.8451
+    4.0531
+    4.3263
+    4.6542
+    4.4886
+      -Inf
+      -Inf
+      -Inf
+    4.7267
+    4.4456
+    4.2989
+    4.0969
+    4.1959
+    4.2405
+    3.8808
+    3.8751
+    4.0374
+    3.7782
+    4.3522
+    4.2989
+    4.6513
+    4.3324
+    4.3997
+    4.4116
+    4.0828
+    4.2945
+      -Inf
+    4.1072
+    4.0334
+    3.8976
+    4.0969
+    4.2923
+    4.1239
+    4.1492
+    4.2405
+      -Inf
+      -Inf
+    3.9912
+    4.1761
+    4.1206
+      -Inf
+    4.0607
+      -Inf
+    4.3541
+    4.1523
+    4.0170
+    4.1106
+    4.3838
+    4.2122
+    4.0374
+    4.2201
+    4.2989
+    3.8573
+    3.6232
+    3.8388
+    3.5315
+    3.7709
+    3.7243
+    3.7853
+    4.1206
+    3.7993
+    3.7709
+    3.8129
+    4.1335
+    3.8195
+    4.0334
+    3.6902
+    3.4472
+    3.9243
+    3.7709
+    3.6128
+    3.5682
+    3.9085
+    3.8129
+    3.7076
+    4.0170
+    3.8195
+    3.7076
+    3.6021
+    3.6021
+    3.6232
+    4.1959
+    4.2833
+    4.0792
+    4.0569
+    3.9912
+    4.3201
+    4.2253
+    4.2068
+    4.6064
+    3.9294
+    4.1430
+    3.9912
+    4.2380
+    4.1399
+    4.1818
+    3.9243
+    3.6628
+    3.8921
+    3.8261
+    3.6628
+    3.7324
+    3.7782
+    4.0128
+    4.0253
+    3.6532
+    4.1818
+    3.8751
+    3.6812
+    3.5441
+    3.6902
+    3.7243
+    3.7924
+    3.8261
+    3.5185
+    3.8261
+    4.0682
+    3.9294
+    3.8513
+    4.1931
+    4.1523
+    3.8062
+    3.6435
+    3.5315
+    3.7993
+    4.0792
+    4.1875
+    3.9494
+    3.9243
+    4.2945
+    4.0453
+    4.2625
+    4.3075
+
+min(lVol)
+
+ans =
+
+  -Inf
+
+min(lVol(lVol>-inf))
+
+ans =
+
+    3.4472
+
+axes( hA( 3 ) )
+        lVol = log10(DG.stockHist.day.volume( DG.cIdx ));
+        bar( 1 : nDay, lVol, 1, 'FaceColor', getColor(8), 'EdgeColor', getColor(8) );
+        ylim( [min(lVol(lVol>-inf)).*0.99,max(lVol(lVol>-inf)).*1.01 ])
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+ans =
+
+     0
+
+Fetching: ALK Abello
+Processing: ALK Abello
+Making Plots: ALK Abello
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+ans =
+
+     0
+
+Fetching: ALK Abello
+Fetching: Apple
+Fetching: ASML Holding
+Fetching: Audience
+Fetching: Austevoll
+Fetching: Bakkafrost
+Fetching: Bang og Olufsen
+Fetching: Barrick Gold Corporation
+Fetching: Bavarian Nordic
+Fetching: Berkshire
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('urlreadwrite', 'C:\Program Files\MATLAB\R2013b\toolbox\matlab\iofun\private\urlreadwrite.m', 74)" style="font-weight:bold">urlreadwrite</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\iofun\private\urlreadwrite.m',74,0)">line 74</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('urlread', 'C:\Program Files\MATLAB\R2013b\toolbox\matlab\iofun\urlread.m', 36)" style="font-weight:bold">urlread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\iofun\urlread.m',36,0)">line 36</a>)
+[s,status] = urlreadwrite(mfilename,catchErrors,url,varargin{:});
+
+In <a href="matlab:helpUtils.errorDocCallback('yahoo/fetch>wwwread', 'C:\Program Files\MATLAB\R2013b\toolbox\datafeed\datafeed\@yahoo\fetch.m', 403)" style="font-weight:bold">yahoo/fetch>wwwread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\datafeed\datafeed\@yahoo\fetch.m',403,0)">line 403</a>)
+retdat = urlread(fetchurl);
+
+In <a href="matlab:helpUtils.errorDocCallback('yahoo/fetch', 'C:\Program Files\MATLAB\R2013b\toolbox\datafeed\datafeed\@yahoo\fetch.m', 362)" style="font-weight:bold">yahoo/fetch</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\datafeed\datafeed\@yahoo\fetch.m',362,0)">line 362</a>)
+      [tmpdat,h] = wwwread(fetchurl,numinputs);
+
+In <a href="matlab:helpUtils.errorDocCallback('getStockHistory', 'C:\matlab\projects\stocks\functions\stocks\getStockHistory.m', 5)" style="font-weight:bold">getStockHistory</a> (<a href="matlab: opentoline('C:\matlab\projects\stocks\functions\stocks\getStockHistory.m',5,0)">line 5</a>)
+d = fetch(conn,S.symbol,{'open','high','low','close','volume','adj close'},startDate,endDate);
+
+In <a href="matlab:helpUtils.errorDocCallback('makeReport', 'C:\matlab\projects\stocks\functions\stocks\makeReport.m', 38)" style="font-weight:bold">makeReport</a> (<a href="matlab: opentoline('C:\matlab\projects\stocks\functions\stocks\makeReport.m',38,0)">line 38</a>)
+  stockHist = getStockHistory(conn,stockHist,S(cS),'01-jan-2000',date);
+} 
+copy2lenovo
+
+
+exit
