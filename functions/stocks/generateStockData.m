@@ -262,6 +262,10 @@ S(idx).name = 'Microsoft';
 S(idx).symbol = 'MSFT';
 
 idx = idx + 1;
+S(idx).name = 'Midsona AB';
+S(idx).symbol = 'MSON-B.ST';
+
+idx = idx + 1;
 S(idx).name = 'Ming Yang Wind Power Group';
 S(idx).symbol = 'MY';
 S(idx).bought = '2013-12-03';
@@ -424,6 +428,10 @@ S(idx).stoplossMax = -10;
 % idx = idx + 1;
 % S(idx).name = 'Twitter';
 % S(idx).symbol = 'TWTR';
+
+idx = idx + 1;
+S(idx).name = 'Valeo';
+S(idx).symbol = 'FR.PA';
 
 idx=idx+1;
 S(idx).name = 'Veloxis Pharmacy';
