@@ -107,10 +107,6 @@ S(idx).name = 'Carlsberg';
 S(idx).symbol = 'CARL-B.CO';
 
 idx = idx + 1;
-S(idx).name = 'Cermaq';
-S(idx).symbol = 'CEQ.OL';
-
-idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
 S(idx).symbol = 'CHR.CO';
 S(idx).bought = '2014-12-10';
