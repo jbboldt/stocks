@@ -157,10 +157,6 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'General Motors';
 S(idx).symbol = 'GM';
-S(idx).bought = '2010-11-26';
-S(idx).price = 33.42;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -50;
 
 idx = idx + 1;
 S(idx).name = 'GenMab';
@@ -300,10 +296,6 @@ S(idx).stoplossMax = -10;
 idx = idx + 1;
 S(idx).name = 'Novo Nordisk';
 S(idx).symbol = 'NOVO-B.CO';
-S(idx).bought = '2014-05-26';
-S(idx).price = 234.70;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Novozymes';
@@ -335,10 +327,6 @@ S(idx).symbol = 'PLT.MI';
 idx = idx + 1;
 S(idx).name = 'RTX';
 S(idx).symbol = 'RTX.CO';
-S(idx).bought = '2014-12-10';
-S(idx).price = 56;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Roblon';
