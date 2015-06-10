@@ -45,5 +45,6 @@ if nargin == 4
     opt.imageSize = [ 1.777 1 ] * 5;
     opt.dpi = 700;
     opt.upScale = 6;
+    opt.showOutput = false;
     fName = fig2png( gcf, [ targetDir, filesep, stk.shortName, plotType ], opt );
 end
