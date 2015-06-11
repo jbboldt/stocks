@@ -133,6 +133,10 @@ S(idx).stoplossMax = -10;
 idx=idx+1;
 S(idx).name = 'Codexis';
 S(idx).symbol = 'CDXS';
+S(idx).bought = '2015-06-11';
+S(idx).price = 4.1099;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -20;
 
 idx = idx + 1;
 S(idx).name = 'Facebook';
