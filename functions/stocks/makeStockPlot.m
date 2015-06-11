@@ -373,5 +373,6 @@ if nargin == 4
     opt.imageSize = [ 1.777 1 ] * 10;
     opt.dpi = 500;
     opt.upScale = 3;
+    opt.showOutput = false;
     fName = fig2png( gcf, [ targetDir, filesep, strrep( stockHist.name, ' ', '' ), plotType ], opt );
 end
