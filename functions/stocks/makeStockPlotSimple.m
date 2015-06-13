@@ -24,16 +24,22 @@ title( sprintf( '%s (%s) %s. Last data: %s', S.name, S.ticker, datestr( now ),da
 xgrid(0.5:5:nDay,[1 1 1].*0.7,2);
 set(gca,'XTick',[])
 
+dayDirection = sign(S.day.close(cIdx)-S.day.open(cIdx));
+dayDirection(dayDirection==0)=1;
+
 axes(hA(2))
-lVol = log10(S.day.volume(cIdx));
-bar(lVol);
+lVol = (S.day.volume(cIdx));
+bar(find(dayDirection==1),lVol(dayDirection==1),'g');
+hold on
+bar(find(dayDirection==-1),lVol(dayDirection==-1),'r');
 xlim([0 nDay+1])
 set(gca,'YAxisLocation','right');
 %%bar( 1 : nDay, lVol, 1, 'FaceColor', getColor(8), 'EdgeColor', getColor(8) );
 ylim( [min(lVol(lVol>-inf)).*0.99,max(lVol(lVol>-inf)).*1.01 ]);
 xgrid(0.5:5:nDay,[1 1 1].*0.7,2);
 set(gca,'TickLength',[0 0])
-ylabel('log Volume')
+%ylabel('log Volume')
+ylabel('Volume')
 
 cSdn = S.day.sdn(cIdx);
 set(gca,'Xtick',[1:5:nDay nDay],'XtickLabel', datestr(cSdn([1:5:nDay nDay]),'dd/mm'))
