@@ -227,6 +227,10 @@ S(idx).name = 'Kandi';
 S(idx).symbol = 'KNDI';
 
 idx = idx + 1;
+S(idx).name = 'Knowles';
+S(idx).symbol = 'KN';
+
+idx = idx + 1;
 S(idx).name = 'Lar Espana Real Estate';
 S(idx).symbol = 'LRE.MC';
 
