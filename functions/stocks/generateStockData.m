@@ -215,6 +215,10 @@ S(idx).name = 'Intel';
 S(idx).symbol = 'INTC';
 
 idx = idx + 1;
+S(idx).name = 'Intrexon Corp';
+S(idx).symbol = 'XON';
+
+idx = idx + 1;
 S(idx).name = 'Jyske Bank';
 S(idx).symbol = 'JYSK.CO';
 S(idx).bought = '2014-05-26';
