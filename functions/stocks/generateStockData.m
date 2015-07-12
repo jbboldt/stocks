@@ -351,6 +351,10 @@ S(idx).symbol = 'SALM.OL';
 idx=idx+1;
 S(idx).name = 'Saeta Yield SA';
 S(idx).symbol = 'SAY.MC';
+S(idx).bought = '2015-06-01';
+S(idx).price = 9.75;
+S(idx).stoploss = -9;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'SAS';
