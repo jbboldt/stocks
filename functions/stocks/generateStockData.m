@@ -79,6 +79,10 @@ S(idx).name = 'BioGaia';
 S(idx).symbol = 'BIOG-B.ST';
 
 idx = idx+1;
+S(idx).name = 'BioInvent';
+S(idx).symbol = 'BINV.ST';
+
+idx = idx+1;
 S(idx).name = 'Biotec Pharmacon';
 S(idx).symbol = 'BIOTEC.OL';
 S(idx).bought = '2014-12-22';
@@ -201,6 +205,10 @@ S(idx).symbol = 'HPQ';
 idx = idx+1;
 S(idx).name = 'Hispania Activos Inmobiliarios SA';
 S(idx).symbol = 'HIS.MC';
+
+idx = idx+1;
+S(idx).name = 'Hugo Games';
+S(idx).symbol = 'HUGO.OL';
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
