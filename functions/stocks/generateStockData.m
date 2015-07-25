@@ -7,6 +7,10 @@ S(idx).stoploss = -5;
 S(idx).stoplossMax = -5;
 
 idx = idx+1;
+S(idx).name = 'Analogic Corporation';
+S(idx).symbol = 'ALOG';
+
+idx = idx+1;
 S(idx).name = 'Ajinomoto';
 S(idx).symbol = 'AJINY';
 
@@ -351,6 +355,10 @@ S(idx).symbol = 'NXPI';
 idx = idx+1;
 S(idx).name = 'Parmalat';
 S(idx).symbol = 'PLT.MI';
+
+idx = idx+1;
+S(idx).name = 'Precise Biometrics';
+S(idx).symbol = 'PREC';
 
 idx = idx + 1;
 S(idx).name = 'RTX';
