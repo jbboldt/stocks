@@ -63,8 +63,8 @@ S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
 S(idx).bought = '2014-02-12';
 S(idx).price = 98;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -315,7 +315,7 @@ S(idx).symbol = 'NN-B.ST';
 S(idx).bought = '2014-12-10';
 S(idx).price = 28.80;
 S(idx).stoploss = -7;
-S(idx).stoplossMax = -10;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Novo Nordisk';
@@ -410,7 +410,7 @@ S(idx).symbol = 'TSM';
 S(idx).bought = '2015-01-20';
 S(idx).price = 23.049;
 S(idx).stoploss = -9;
-S(idx).stoplossMax = -5;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'TDC';
