@@ -358,7 +358,7 @@ S(idx).symbol = 'PLT.MI';
 
 idx = idx+1;
 S(idx).name = 'Precise Biometrics';
-S(idx).symbol = 'PREC';
+S(idx).symbol = 'PBCB';
 
 idx = idx + 1;
 S(idx).name = 'RTX';
