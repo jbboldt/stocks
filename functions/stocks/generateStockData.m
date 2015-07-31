@@ -141,10 +141,6 @@ S(idx).stoplossMax = -10;
 idx=idx+1;
 S(idx).name = 'Codexis';
 S(idx).symbol = 'CDXS';
-S(idx).bought = '2015-06-11';
-S(idx).price = 4.1099;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Facebook';
@@ -217,6 +213,10 @@ S(idx).symbol = 'HIS.MC';
 idx = idx+1;
 S(idx).name = 'Hugo Games';
 S(idx).symbol = 'HUGO.OL';
+S(idx).bought = '2015-07-31';
+S(idx).price = 8.75;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
@@ -363,6 +363,10 @@ S(idx).symbol = 'PBCB';
 idx = idx + 1;
 S(idx).name = 'RTX';
 S(idx).symbol = 'RTX.CO';
+S(idx).bought = '2015-07-28';
+S(idx).price = 95;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Roblon';
