@@ -51,7 +51,14 @@ switch plotType
         ylabel( 'mode' );
         
         axes( hA( 2 ))
-        
+        if ~isempty(DG.stockHist.bought)
+            buyIdx = find(DG.stockHist.day.sdn==datenum(DG.stockHist.bought))-DG.cIdx(1);
+            line([buyIdx, buyIdx],log10([DG.stockHist.price.*0.96,DG.stockHist.price*1.04]), ...
+                'color', [.7 .7 .7], 'linewidth', 3)
+            hold on
+            line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
+                'color', [.7 .7 .7], 'linewidth', 3)
+        end
         [~, ma ]=movavg( DG.stockHist.day.close, 1, 5, 0 );
         plot( log10( ma( DG.cIdx ) ) , 'r', 'linewidth', 2 )
         hold on
@@ -73,6 +80,14 @@ switch plotType
         ylabel( 'log Volume' );
         
         axes( hA( 2 ))
+        if ~isempty(DG.stockHist.bought)
+            buyIdx = find(DG.stockHist.day.sdn==datenum(DG.stockHist.bought))-DG.cIdx(1);
+            line([buyIdx, buyIdx],log10([DG.stockHist.price.*0.9,DG.stockHist.price*1.1]), ...
+                'color', [.7 .7 .7], 'linewidth', 2)
+            hold on
+            line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
+                'color', [.7 .7 .7], 'linewidth', 2)
+        end
         
         [~, ma ]=movavg( DG.stockHist.day.close, 1, 60, 0 );
         plot( log10( ma( DG.cIdx ) ) , 'b', 'linewidth', 1 )
@@ -83,8 +98,8 @@ switch plotType
         [~, ma ]=movavg( DG.stockHist.day.close, 1, 200, 0 );
         plot( log10( ma( DG.cIdx ) ) , 'c', 'linewidth', 1 )
         
-        legend( '60', '100', '200', 'location', 'northwest' );   
-    
+        legend( '60', '100', '200', 'location', 'northwest' );
+        
     case 'bollinger'
         
         axes( hA( 1 ) )
@@ -102,24 +117,32 @@ switch plotType
         set( hA(1), 'GridLineStyle', '-' );
         
         axes( hA( 2 ))
+        if ~isempty(DG.stockHist.bought)
+            buyIdx = find(DG.stockHist.day.sdn==datenum(DG.stockHist.bought))-DG.cIdx(1);
+            line([buyIdx, buyIdx],log10([DG.stockHist.price.*0.96,DG.stockHist.price*1.04]), ...
+                'color', [.7 .7 .7], 'linewidth', 3)
+            hold on
+            line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
+                'color', [.7 .7 .7], 'linewidth', 3)
+        end
         
         lw = 1.5;
         [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 60, 2 );
         hp(1) = plot( log10( uppr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(4) );
         plot( log10( lowr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(4) );
         plot( log10( mid( DG.cIdx ) ) , ':', 'linewidth', lw, 'color', getColor(4) );
-
+        
         [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 20, 2 );
         hp(2) = plot( log10( uppr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(3) );
         plot( log10( lowr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(3) );
         plot( log10( mid( DG.cIdx ) ) , ':', 'linewidth', lw, 'color', getColor(3));
-
+        
         [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 5, 2 );
         hp(3) = plot( log10( uppr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(2) );
         plot( log10( lowr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(2) );
         hold on
         plot( log10( mid( DG.cIdx ) ) , ':', 'linewidth', lw, 'color', getColor(2) );
-
+        
         legend( hp, {'60', '20', '5'}, 'location', 'northwest');
         
     case 'obv'
@@ -255,6 +278,15 @@ switch plotType
         
         axes( hA( 2 ))
         
+        if ~isempty(DG.stockHist.bought)
+            buyIdx = find(DG.stockHist.day.sdn==datenum(DG.stockHist.bought))-DG.cIdx(1);
+            line([buyIdx, buyIdx],log10([DG.stockHist.price.*0.96,DG.stockHist.price*1.04]), ...
+                'color', [.7 .7 .7], 'linewidth', 3)
+            hold on
+            line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
+                'color', [.7 .7 .7], 'linewidth', 3)
+        end
+        
         [~, ma ]=movavg( DG.stockHist.day.close, 1, 5, 0 );
         plot( log10( ma( DG.cIdx ) ) , 'r', 'linewidth', 2 )
         hold on
@@ -273,8 +305,8 @@ switch plotType
     case 'maLong'
         hhl = plot( log10( DG.stockHist.day.high( DG.cIdx )),'k');
         set(hA(2),'YLim', ...
-    [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
-    max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);
+            [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
+            max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);
         set( hhl,'linewidth', 1.5 )
     otherwise
         hhl = highlow( log10( DG.stockHist.day.high( DG.cIdx ) ), ...
@@ -324,7 +356,7 @@ elseif nDay >= 500
     yearDiff( end ) = 1;
     yearDiff( end - nDay + 1 : end );
     xData = find( yearDiff ~= 0 );
-
+    
     for c = 1 : length( xData )
         tic{c} = datestr( DG.stockHist.day.sdn( DG.cIdx( xData( c ) ) ), 'mmmyy' );
     end
