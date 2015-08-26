@@ -49,10 +49,6 @@ S(idx).stoplossMax = -10;
 idx = idx + 1;
 S(idx).name = 'Bang og Olufsen';
 S(idx).symbol = 'BO.CO';
-S(idx).bought = '2015-03-24';
-S(idx).price = 52;
-S(idx).stoploss = -9;
-S(idx).stoplossMax = -10;
 
 idx = idx+1;
 S(idx).name = 'Barrick Gold Corporation';
@@ -357,6 +353,10 @@ S(idx).name = 'Parmalat';
 S(idx).symbol = 'PLT.MI';
 
 idx = idx+1;
+S(idx).name = 'Photocure';
+S(idx).symbol = 'PHO.OL';
+
+idx = idx+1;
 S(idx).name = 'Precise Biometrics';
 S(idx).symbol = 'PBCB';
 
@@ -419,10 +419,6 @@ S(idx).symbol = 'SZYM';
 idx = idx + 1;
 S(idx).name = 'Taiwan Semiconductor';
 S(idx).symbol = 'TSM';
-S(idx).bought = '2015-01-20';
-S(idx).price = 23.049;
-S(idx).stoploss = -9;
-S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'TDC';
