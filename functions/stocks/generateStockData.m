@@ -3,8 +3,8 @@ S(idx).name = 'ALK Abello';
 S(idx).symbol = 'ALK-B.CO';
 S(idx).bought = '2015-01-06';
 S(idx).price = 673;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -5;
+S(idx).stoploss = 5;
+S(idx).stoplossMax = -20;
 
 idx = idx+1;
 S(idx).name = 'Analogic Corporation';
@@ -19,7 +19,7 @@ S(idx).name = 'Ambarella';
 S(idx).symbol = 'AMBA';
 S(idx).bought = '2015-05-18';
 S(idx).price = 79,72;
-S(idx).stoploss = -10;
+S(idx).stoploss = 10;
 S(idx).stoplossMax = -20;
 
 idx = idx + 1;
