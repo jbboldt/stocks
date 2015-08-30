@@ -63,8 +63,8 @@ S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
 S(idx).bought = '2014-02-12';
 S(idx).price = 98;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = 150;
+S(idx).stoplossMax = -30;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -115,8 +115,8 @@ S(idx).name = 'Chr. Hansen';
 S(idx).symbol = 'CHR.CO';
 S(idx).bought = '2014-12-10';
 S(idx).price = 271.40;
-S(idx).stoploss = -9;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = 20;
+S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'CSR (US)';
@@ -171,8 +171,8 @@ S(idx).name = 'GenMab';
 S(idx).symbol = 'GEN.CO';
 S(idx).bought = '2014-06-06';
 S(idx).price = 234;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = 150;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Gilead Sciences Inc.';
@@ -219,8 +219,8 @@ S(idx).name = 'IDEX';
 S(idx).symbol = 'IDEX.OL';
 S(idx).bought = '2015-03-16';
 S(idx).price = 5.99;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = 20;
+S(idx).stoplossMax = -30;
 
 % idx = idx + 1;
 % S(idx).name = 'Intel';
@@ -314,8 +314,8 @@ S(idx).name = 'Nordnet';
 S(idx).symbol = 'NN-B.ST';
 S(idx).bought = '2014-12-10';
 S(idx).price = 28.80;
-S(idx).stoploss = -7;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = 10;
+S(idx).stoplossMax = -20;
 
 idx = idx + 1;
 S(idx).name = 'Novo Nordisk';
@@ -326,8 +326,8 @@ S(idx).name = 'Novozymes';
 S(idx).symbol = 'NZYM-B.CO';
 S(idx).bought = '2015-01-13';
 S(idx).price = 267.50;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = 5;
+S(idx).stoplossMax = -25;
 
 idx = idx + 1;
 S(idx).name = 'NXP Semiconductors';
@@ -397,8 +397,8 @@ S(idx).name = 'Seattle Genetics';
 S(idx).symbol = 'SGEN';
 S(idx).bought = '2015-04-14';
 S(idx).price = 37.8;
-S(idx).stoploss = -9;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = 10;
+S(idx).stoplossMax = -20;
 
 idx = idx + 1;
 S(idx).name = 'Skyworks Solutions';
