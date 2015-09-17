@@ -1,14 +1,14 @@
 idx = 1;
 S(idx).name = 'ALK Abello';
 S(idx).symbol = 'ALK-B.CO';
-S(idx).bought = '2015-01-06';
-S(idx).price = 673;
-S(idx).stoploss = 5;
-S(idx).stoplossMax = -20;
 
 idx = idx+1;
 S(idx).name = 'Analogic Corporation';
 S(idx).symbol = 'ALOG';
+S(idx).bought = '2015-05-18';
+S(idx).price = 80.90;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 idx = idx+1;
 S(idx).name = 'Ajinomoto';
@@ -211,8 +211,8 @@ S(idx).name = 'Hugo Games';
 S(idx).symbol = 'HUGO.OL';
 S(idx).bought = '2015-07-30';
 S(idx).price = 8.75;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
@@ -262,13 +262,14 @@ idx = idx + 1;
 S(idx).name = 'Lundbeck';
 S(idx).symbol = 'LUN.CO';
 
-% idx = idx + 1;
-% S(idx).name = 'Marine Harvest';
-% S(idx).symbol = 'MHG.OL';
-% S(idx).bought = '2014-06-24';
-% S(idx).price = 82.45;
-% S(idx).stoploss = -10;
-% S(idx).stoplossMax = -10;
+idx = idx + 1;
+S(idx).name = 'Marine Harvest';
+S(idx).symbol = 'MHG.OL';
+S(idx).bought = '2014-06-24';
+S(idx).price = 82.45;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
+
 idx = idx + 1;
 S(idx).name = 'Merlin Properties SA';
 S(idx).symbol = 'MRL.MC';
