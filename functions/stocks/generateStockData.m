@@ -41,10 +41,6 @@ S(idx).symbol = 'ASML.AS';
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
 S(idx).symbol = 'BAKKA.OL';
-S(idx).bought = '2015-04-08';
-S(idx).price = 179;
-S(idx).stoploss = -9;
-S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Bang og Olufsen';
@@ -61,10 +57,6 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
-S(idx).bought = '2014-02-12';
-S(idx).price = 98;
-S(idx).stoploss = 150;
-S(idx).stoplossMax = -30;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -89,10 +81,6 @@ S(idx).stoplossMax = -50;
 idx = idx+1;
 S(idx).name = 'BioPorto';
 S(idx).symbol = 'BIOPOR.CO';
-S(idx).bought = '2013-11-12';
-S(idx).price = 1.57;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'BMW';
@@ -113,10 +101,6 @@ S(idx).symbol = 'CELG';
 idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
 S(idx).symbol = 'CHR.CO';
-S(idx).bought = '2014-12-10';
-S(idx).price = 271.40;
-S(idx).stoploss = 20;
-S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'CSR (US)';
@@ -505,10 +489,6 @@ S(idx).symbol = 'YHOO';
 idx = idx + 1;
 S(idx).name = 'Zealand Pharma';
 S(idx).symbol = 'ZEAL.CO';
-S(idx).bought = '2013-10-30';
-S(idx).price = 63;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
