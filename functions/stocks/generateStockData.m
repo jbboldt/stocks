@@ -1,18 +1,18 @@
 idx = 1;
 S(idx).name = 'ALK Abello';
 S(idx).symbol = 'ALK-B.CO';
-S(idx).bought = '2015-01-06';
-S(idx).price = 673;
-S(idx).stoploss = 5;
-S(idx).stoplossMax = -20;
 
 idx = idx+1;
 S(idx).name = 'Analogic Corporation';
 S(idx).symbol = 'ALOG';
+S(idx).bought = '2015-05-18';
+S(idx).price = 80.90;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
-idx = idx+1;
-S(idx).name = 'Ajinomoto';
-S(idx).symbol = 'AJINY';
+% idx = idx+1;
+% S(idx).name = 'Ajinomoto';
+% S(idx).symbol = 'AJINY';
 
 idx = idx + 1;
 S(idx).name = 'Ambarella';
@@ -22,9 +22,9 @@ S(idx).price = 79,72;
 S(idx).stoploss = 10;
 S(idx).stoplossMax = -20;
 
-idx = idx + 1;
-S(idx).name = 'Apple';
-S(idx).symbol = 'AAPL';
+% idx = idx + 1;
+% S(idx).name = 'Apple';
+% S(idx).symbol = 'AAPL';
 
 idx = idx + 1;
 S(idx).name = 'ASML Holding';
@@ -34,9 +34,9 @@ S(idx).symbol = 'ASML.AS';
 % S(idx).name = 'Austevoll';
 % S(idx).symbol = 'AUSS.OL';
 
-idx = idx+1;
-S(idx).name = 'Azkoyen SA';
-S(idx).symbol = 'AZK.MC';
+% idx = idx+1;
+% S(idx).name = 'Azkoyen SA';
+% S(idx).symbol = 'AZK.MC';
 
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
@@ -98,9 +98,9 @@ idx = idx + 1;
 S(idx).name = 'BMW';
 S(idx).symbol = 'BMW.DE';
 
-idx = idx+1;
-S(idx).name = 'BYD Company';
-S(idx).symbol = '1211.HK';
+% idx = idx+1;
+% S(idx).name = 'BYD Company';
+% S(idx).symbol = '1211.HK';
 
 % idx = idx + 1;
 % S(idx).name = 'Carlsberg';
@@ -178,17 +178,17 @@ S(idx).stoplossMax = -15;
 % S(idx).name = 'Gilead Sciences Inc.';
 % S(idx).symbol = 'GILD';
 
-idx = idx + 1;
-S(idx).name = 'Google';
-S(idx).symbol = 'GOOG';
+% idx = idx + 1;
+% S(idx).name = 'Google';
+% S(idx).symbol = 'GOOG';
 
 % idx=idx+1;
 % S(idx).name = 'Grieg Seafood';
 % S(idx).symbol = 'GSF.OL';
 
-idx = idx+1;
-S(idx).name = 'Grupo Ezentis SA';
-S(idx).symbol = 'EZE.MC';
+% idx = idx+1;
+% S(idx).name = 'Grupo Ezentis SA';
+% S(idx).symbol = 'EZE.MC';
 
 % idx = idx + 1;
 % S(idx).name = 'Hafslund A';
@@ -202,17 +202,17 @@ S(idx).symbol = 'EZE.MC';
 % S(idx).name = 'Hewlett-Packard';
 % S(idx).symbol = 'HPQ';
 
-idx = idx+1;
-S(idx).name = 'Hispania Activos Inmobiliarios SA';
-S(idx).symbol = 'HIS.MC';
+% idx = idx+1;
+% S(idx).name = 'Hispania Activos Inmobiliarios SA';
+% S(idx).symbol = 'HIS.MC';
 
 idx = idx+1;
 S(idx).name = 'Hugo Games';
 S(idx).symbol = 'HUGO.OL';
 S(idx).bought = '2015-07-30';
 S(idx).price = 8.75;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
@@ -229,6 +229,10 @@ S(idx).stoplossMax = -30;
 idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
+S(idx).bought = '2015-09-21';
+S(idx).price = 50.30;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
@@ -246,9 +250,9 @@ idx = idx + 1;
 S(idx).name = 'Knowles';
 S(idx).symbol = 'KN';
 
-idx = idx + 1;
-S(idx).name = 'Lar Espana Real Estate';
-S(idx).symbol = 'LRE.MC';
+% idx = idx + 1;
+% S(idx).name = 'Lar Espana Real Estate';
+% S(idx).symbol = 'LRE.MC';
 
 % idx = idx + 1;
 % S(idx).name = 'Leroy Seafood';
@@ -262,16 +266,17 @@ idx = idx + 1;
 S(idx).name = 'Lundbeck';
 S(idx).symbol = 'LUN.CO';
 
-% idx = idx + 1;
-% S(idx).name = 'Marine Harvest';
-% S(idx).symbol = 'MHG.OL';
-% S(idx).bought = '2014-06-24';
-% S(idx).price = 82.45;
-% S(idx).stoploss = -10;
-% S(idx).stoplossMax = -10;
 idx = idx + 1;
-S(idx).name = 'Merlin Properties SA';
-S(idx).symbol = 'MRL.MC';
+S(idx).name = 'Marine Harvest';
+S(idx).symbol = 'MHG.OL';
+S(idx).bought = '2014-06-24';
+S(idx).price = 82.45;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
+
+% idx = idx + 1;
+% S(idx).name = 'Merlin Properties SA';
+% S(idx).symbol = 'MRL.MC';
 
 % idx = idx + 1;
 % S(idx).name = 'Microsoft';
@@ -300,6 +305,10 @@ S(idx).symbol = 'NTAP';
 % idx = idx + 1;
 % S(idx).name = 'NKT';
 % S(idx).symbol = 'NKT.CO';
+
+idx = idx + 1;
+S(idx).name = 'NNIT';
+S(idx).symbol = 'NNIT.CO';
 
 idx = idx + 1;
 S(idx).name = 'Nordea';
@@ -332,6 +341,10 @@ S(idx).stoplossMax = -25;
 idx = idx + 1;
 S(idx).name = 'NXP Semiconductors';
 S(idx).symbol = 'NXPI';
+S(idx).bought = '2014-05-21';
+S(idx).price = 90.35;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
@@ -348,9 +361,9 @@ S(idx).symbol = 'NXPI';
 % S(idx).name = 'Qualcomm';
 % S(idx).symbol = 'QCOM';
 
-idx = idx+1;
-S(idx).name = 'Parmalat';
-S(idx).symbol = 'PLT.MI';
+% idx = idx+1;
+% S(idx).name = 'Parmalat';
+% S(idx).symbol = 'PLT.MI';
 
 idx = idx+1;
 S(idx).name = 'Photocure';
@@ -384,9 +397,9 @@ S(idx).price = 9.75;
 S(idx).stoploss = -9;
 S(idx).stoplossMax = -15;
 
-idx = idx + 1;
-S(idx).name = 'SAS';
-S(idx).symbol = 'SAS-DKK.CO';
+% idx = idx + 1;
+% S(idx).name = 'SAS';
+% S(idx).symbol = 'SAS-DKK.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Schouw';
@@ -457,9 +470,9 @@ S(idx).stoplossMax = -10;
 % S(idx).name = 'Twitter';
 % S(idx).symbol = 'TWTR';
 
-idx = idx + 1;
-S(idx).name = 'Valeo';
-S(idx).symbol = 'FR.PA';
+% idx = idx + 1;
+% S(idx).name = 'Valeo';
+% S(idx).symbol = 'FR.PA';
 
 idx=idx+1;
 S(idx).name = 'Veloxis Pharmacy';
