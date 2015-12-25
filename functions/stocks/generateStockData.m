@@ -19,8 +19,8 @@ S(idx).name = 'Ambarella';
 S(idx).symbol = 'AMBA';
 S(idx).bought = '2015-05-18';
 S(idx).price = 79,72;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
+S(idx).stoploss = 10;
+S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Apple';
@@ -41,6 +41,10 @@ S(idx).symbol = 'ASML.AS';
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
 S(idx).symbol = 'BAKKA.OL';
+S(idx).bought = '2015-04-08';
+S(idx).price = 179;
+S(idx).stoploss = -9;
+S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Bang og Olufsen';
@@ -199,16 +203,12 @@ S(idx).stoplossMax = -30;
 % S(idx).symbol = 'INTC';
 
 idx = idx + 1;
-S(idx).name = 'Intricon Corp';
-S(idx).symbol = 'IIN';
-
-idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
 S(idx).bought = '2015-09-21';
 S(idx).price = 50.30;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
@@ -300,7 +300,7 @@ S(idx).symbol = 'NN-B.ST';
 S(idx).bought = '2014-12-10';
 S(idx).price = 28.80;
 S(idx).stoploss = 10;
-S(idx).stoplossMax = -25;
+S(idx).stoplossMax = -20;
 
 idx = idx + 1;
 S(idx).name = 'Novo Nordisk';
@@ -319,8 +319,8 @@ S(idx).name = 'NXP Semiconductors';
 S(idx).symbol = 'NXPI';
 S(idx).bought = '2014-05-21';
 S(idx).price = 90.35;
-S(idx).stoploss = -20;
-S(idx).stoplossMax = -30;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
@@ -466,8 +466,8 @@ S(idx).name = 'WhiteWave Foods';
 S(idx).symbol = 'WWAV';
 S(idx).bought = '2015-04-07';
 S(idx).price = 45.37;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -25;
+S(idx).stoploss = -9;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Whole Foods Market';
@@ -484,10 +484,3 @@ S(idx).symbol = 'ZEAL.CO';
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
 % S(idx).symbol = 'IMG.L';
-
-
-
-
-
-
-
