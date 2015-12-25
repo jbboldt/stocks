@@ -347,6 +347,7 @@ S(idx).symbol = 'PHO.OL';
 S(idx).bought = '2015-12-14';
 S(idx).price = 37;
 S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 idx = idx+1;
 S(idx).name = 'Precise Biometrics';
