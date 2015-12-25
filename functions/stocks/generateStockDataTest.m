@@ -7,19 +7,12 @@ S(idx).price = 673;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -5;
 
-idx = idx+1;
-S(idx).name = 'Ajinomoto';
-S(idx).symbol = 'AJI.F';
-
-idx = idx+1;
-S(idx).name = 'BYD Company';
-S(idx).symbol = '1211.HK';
-
-idx = idx+1;
-S(idx).name = 'Parmalat';
-S(idx).symbol = 'PLT.MI';
-
-
+S(idx).name = 'Bang og Olufsen';
+S(idx).symbol = 'BO.CO';
+S(idx).bought = '2015-03-22';
+S(idx).price = 52;
+S(idx).stoploss = -9;
+S(idx).stoplossMax = -10;
 
 return
 
