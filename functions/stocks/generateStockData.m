@@ -471,6 +471,10 @@ S(idx).stoploss = -9;
 S(idx).stoplossMax = -15;
 
 idx = idx + 1;
+S(idx).name = 'William Demant Holding';
+S(idx).symbol = 'WDH.CO';
+
+idx = idx + 1;
 S(idx).name = 'Whole Foods Market';
 S(idx).symbol = 'WFM';
 
