@@ -53,18 +53,10 @@ S(idx).symbol = 'BO.CO';
 idx = idx+1;
 S(idx).name = 'Barrick Gold Corporation';
 S(idx).symbol = 'ABX';
-S(idx).bought = '2014-01-03';
-S(idx).price = 18.51;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
-S(idx).bought = '2014-02-12';
-S(idx).price = 98;
-S(idx).stoploss = 150;
-S(idx).stoplossMax = -30;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -81,18 +73,10 @@ S(idx).symbol = 'BINV.ST';
 idx = idx+1;
 S(idx).name = 'Biotec Pharmacon';
 S(idx).symbol = 'BIOTEC.OL';
-S(idx).bought = '2014-12-22';
-S(idx).price = 18.10;
-S(idx).stoploss = -50;
-S(idx).stoplossMax = -50;
 
 idx = idx+1;
 S(idx).name = 'BioPorto';
 S(idx).symbol = 'BIOPOR.CO';
-S(idx).bought = '2013-11-12';
-S(idx).price = 1.57;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'BMW';
@@ -113,10 +97,6 @@ S(idx).symbol = 'CELG';
 idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
 S(idx).symbol = 'CHR.CO';
-S(idx).bought = '2014-12-10';
-S(idx).price = 271.40;
-S(idx).stoploss = 20;
-S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'CSR (US)';
@@ -209,10 +189,6 @@ S(idx).stoplossMax = -15;
 idx = idx+1;
 S(idx).name = 'Hugo Games';
 S(idx).symbol = 'HUGO.OL';
-S(idx).bought = '2015-07-30';
-S(idx).price = 8.75;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
@@ -368,6 +344,9 @@ S(idx).stoplossMax = -10;
 idx = idx+1;
 S(idx).name = 'Photocure';
 S(idx).symbol = 'PHO.OL';
+S(idx).bought = '2015-12-14';
+S(idx).price = 37;
+S(idx).stoploss = -10;
 
 idx = idx+1;
 S(idx).name = 'Precise Biometrics';
@@ -376,10 +355,6 @@ S(idx).symbol = 'PBCB';
 idx = idx + 1;
 S(idx).name = 'RTX';
 S(idx).symbol = 'RTX.CO';
-S(idx).bought = '2015-07-28';
-S(idx).price = 95;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Roblon';
@@ -505,10 +480,6 @@ S(idx).symbol = 'YHOO';
 idx = idx + 1;
 S(idx).name = 'Zealand Pharma';
 S(idx).symbol = 'ZEAL.CO';
-S(idx).bought = '2013-10-30';
-S(idx).price = 63;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
