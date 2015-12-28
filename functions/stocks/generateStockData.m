@@ -41,10 +41,6 @@ S(idx).symbol = 'ASML.AS';
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
 S(idx).symbol = 'BAKKA.OL';
-S(idx).bought = '2015-04-08';
-S(idx).price = 179;
-S(idx).stoploss = -9;
-S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Bang og Olufsen';
