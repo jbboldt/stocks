@@ -7,11 +7,11 @@ S(idx).price = 673;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -5;
 
-S(idx).name = 'Bang og Olufsen';
-S(idx).symbol = 'BO.CO';
-S(idx).bought = '2015-03-22';
-S(idx).price = 52;
-S(idx).stoploss = -9;
+S(idx).name = 'Photocure';
+S(idx).symbol = 'PHO.OL';
+S(idx).bought = '2015-12-14';
+S(idx).price = 37;
+S(idx).stoploss = -10;
 S(idx).stoplossMax = -10;
 
 return
