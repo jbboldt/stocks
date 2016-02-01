@@ -8,7 +8,7 @@ S(idx).symbol = 'ALOG';
 S(idx).bought = '2015-05-18';
 S(idx).price = 80.90;
 S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoplossMax = -20;
 
 % idx = idx+1;
 % S(idx).name = 'Ajinomoto';
@@ -19,8 +19,8 @@ S(idx).name = 'Ambarella';
 S(idx).symbol = 'AMBA';
 S(idx).bought = '2015-05-18';
 S(idx).price = 79,72;
-S(idx).stoploss = -40;
-S(idx).stoplossMax = -60;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Apple';
@@ -101,6 +101,10 @@ S(idx).symbol = 'CHR.CO';
 % idx = idx + 1;
 % S(idx).name = 'Cozan';
 % S(idx).symbol = 'CZZ';
+
+idx = idx + 1;
+S(idx).name = 'Cognex';
+S(idx).symbol = 'CGNX';
 
 % idx = idx + 1;
 % S(idx).name = 'E.ON';
@@ -192,7 +196,7 @@ S(idx).symbol = 'IDEX.OL';
 S(idx).bought = '2015-03-16';
 S(idx).price = 5.99;
 S(idx).stoploss = 20;
-S(idx).stoplossMax = -30;
+S(idx).stoplossMax = -35;
 
 % idx = idx + 1;
 % S(idx).name = 'Intel';
@@ -208,7 +212,7 @@ S(idx).symbol = 'JYSK.CO';
 S(idx).bought = '2014-05-26';
 S(idx).price = 301.8;
 S(idx).stoploss = -10;
-S(idx).stoplossMax = -20;
+S(idx).stoplossMax = -25;
 
 idx = idx + 1;
 S(idx).name = 'Kandi';
@@ -284,7 +288,7 @@ S(idx).symbol = 'NDA-DKK.CO';
 S(idx).bought = '2014-05-27';
 S(idx).price = 80.50;
 S(idx).stoploss = -15;
-S(idx).stoplossMax = -20;
+S(idx).stoplossMax = -30;
 
 idx = idx + 1;
 S(idx).name = 'Nordnet';
@@ -307,12 +311,16 @@ S(idx).stoploss = 5;
 S(idx).stoplossMax = -25;
 
 idx = idx + 1;
+S(idx).name = 'NVIDIA';
+S(idx).symbol = 'NVDA';
+
+idx = idx + 1;
 S(idx).name = 'NXP Semiconductors';
 S(idx).symbol = 'NXPI';
 S(idx).bought = '2014-05-21';
 S(idx).price = 90.35;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -25;
+S(idx).stoploss = -20;
+S(idx).stoplossMax = -40;
 
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
@@ -339,7 +347,7 @@ S(idx).symbol = 'PHO.OL';
 S(idx).bought = '2015-12-14';
 S(idx).price = 37;
 S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoplossMax = -20;
 
 idx = idx+1;
 S(idx).name = 'Precise Biometrics';
@@ -362,8 +370,8 @@ S(idx).name = 'Saeta Yield SA';
 S(idx).symbol = 'SAY.MC';
 S(idx).bought = '2015-06-01';
 S(idx).price = 9.75;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = -20;
+S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'SAS';
@@ -378,8 +386,8 @@ S(idx).name = 'Seattle Genetics';
 S(idx).symbol = 'SGEN';
 S(idx).bought = '2015-04-14';
 S(idx).price = 37.8;
-S(idx).stoploss = 10;
-S(idx).stoplossMax = -20;
+S(idx).stoploss = -20;
+S(idx).stoplossMax = -40;
 
 idx = idx + 1;
 S(idx).name = 'Skyworks Solutions';
@@ -459,7 +467,7 @@ S(idx).name = 'WhiteWave Foods';
 S(idx).symbol = 'WWAV';
 S(idx).bought = '2015-04-07';
 S(idx).price = 45.37;
-S(idx).stoploss = -15;
+S(idx).stoploss = -20;
 S(idx).stoplossMax = -30;
 
 idx = idx + 1;
@@ -467,8 +475,8 @@ S(idx).name = 'William Demant Holding';
 S(idx).symbol = 'WDH.CO';
 S(idx).bought = '2015-12-29';
 S(idx).price = 641;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -20;
 
 idx = idx + 1;
 S(idx).name = 'Whole Foods Market';
