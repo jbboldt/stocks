@@ -134,9 +134,9 @@ S(idx).price = 61.32;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-% idx = idx + 1;
-% S(idx).name = 'FLSmidth';
-% S(idx).symbol = 'FLS.CO';
+idx = idx + 1;
+S(idx).name = 'FLSmidth';
+S(idx).symbol = 'FLS.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Gamesa';
@@ -145,6 +145,10 @@ S(idx).stoplossMax = -99;
 % idx = idx + 1;
 % S(idx).name = 'General Motors';
 % S(idx).symbol = 'GM';
+
+idx = idx + 1;
+S(idx).name = 'G4S';
+S(idx).symbol = 'G4S.CO';
 
 idx = idx + 1;
 S(idx).name = 'GenMab';
@@ -221,6 +225,10 @@ S(idx).symbol = 'KNDI';
 idx = idx + 1;
 S(idx).name = 'Knowles';
 S(idx).symbol = 'KN';
+
+idx = idx + 1;
+S(idx).name = 'Københavns Lufthavne';
+S(idx).symbol = 'KBHL.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Lar Espana Real Estate';
@@ -430,9 +438,9 @@ S(idx).stoplossMax = -15;
 % S(idx).name = 'TGS-Nopec Geophysics';
 % S(idx).symbol = 'TGS.OL';
 
-% idx = idx + 1;
-% S(idx).name = 'Tryg';
-% S(idx).symbol = 'TRYG.CO';
+idx = idx + 1;
+S(idx).name = 'Tryg';
+S(idx).symbol = 'TRYG.CO';
 
 idx = idx + 1;
 S(idx).name = 'Under Armor';
