@@ -27,6 +27,13 @@ elseif strcmp( S.symbol, 'AAPL' )
   day.close = day.close./scaler;
   day.high = day.high./scaler;
   day.low = day.low./scaler;
+elseif strcmp( S.symbol, 'TRYG.CO' )
+    idx = day.sdn <= 736100;
+    scaler = 5;
+    day.open(idx)=day.open(idx)/scaler;
+    day.high(idx)=day.high(idx)/scaler;
+    day.low(idx)=day.low(idx)/scaler;
+    day.close(idx)=day.close(idx)/scaler;
 end
 
 stockHist.ticker = S.symbol;
