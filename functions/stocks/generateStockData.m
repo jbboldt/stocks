@@ -61,6 +61,10 @@ S(idx).symbol = 'BAVA.CO';
 idx = idx+1;
 S(idx).name = 'BioGaia';
 S(idx).symbol = 'BIOG-B.ST';
+S(idx).bought = '2016-02-11';
+S(idx).price = 232;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx+1;
 S(idx).name = 'BioInvent';
@@ -89,6 +93,10 @@ S(idx).symbol = 'BMW.DE';
 idx = idx + 1;
 S(idx).name = 'Celgene';
 S(idx).symbol = 'CELG';
+S(idx).bought = '2016-02-10';
+S(idx).price = 104.7;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
@@ -125,6 +133,10 @@ S(idx).symbol = 'CDXS';
 idx = idx+1;
 S(idx).name = 'FireEye';
 S(idx).symbol = 'FEYE';
+S(idx).bought = '2016-02-12';
+S(idx).price = 11.8799;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx+1;
 S(idx).name = 'First Solar';
@@ -137,6 +149,10 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'FLSmidth';
 S(idx).symbol = 'FLS.CO';
+S(idx).bought = '2016-02-11';
+S(idx).price = 212;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Gamesa';
@@ -265,6 +281,10 @@ S(idx).stoplossMax = -10;
 idx = idx + 1;
 S(idx).name = 'Midsona AB';
 S(idx).symbol = 'MSON-B.ST';
+S(idx).bought = '2016-02-08';
+S(idx).price = 30.10;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Ming Yang Wind Power Group';
