@@ -42,17 +42,17 @@ idx = idx + 1;
 S(idx).name = 'Bakkafrost';
 S(idx).symbol = 'BAKKA.OL';
 
-idx = idx + 1;
-S(idx).name = 'Bang og Olufsen';
-S(idx).symbol = 'BO.CO';
+% idx = idx + 1;
+% S(idx).name = 'Bang og Olufsen';
+% S(idx).symbol = 'BO.CO';
 
-idx = idx+1;
-S(idx).name = 'Barrick Gold Corporation';
-S(idx).symbol = 'ABX';
+% idx = idx+1;
+% S(idx).name = 'Barrick Gold Corporation';
+% S(idx).symbol = 'ABX';
 
-idx = idx + 1;
-S(idx).name = 'Bavarian Nordic';
-S(idx).symbol = 'BAVA.CO';
+% idx = idx + 1;
+% S(idx).name = 'Bavarian Nordic';
+% S(idx).symbol = 'BAVA.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -74,13 +74,13 @@ idx = idx+1;
 S(idx).name = 'Biotec Pharmacon';
 S(idx).symbol = 'BIOTEC.OL';
 
-idx = idx+1;
-S(idx).name = 'BioPorto';
-S(idx).symbol = 'BIOPOR.CO';
-
-idx = idx + 1;
-S(idx).name = 'BMW';
-S(idx).symbol = 'BMW.DE';
+% idx = idx+1;
+% S(idx).name = 'BioPorto';
+% S(idx).symbol = 'BIOPOR.CO';
+% 
+% idx = idx + 1;
+% S(idx).name = 'BMW';
+% S(idx).symbol = 'BMW.DE';
 
 % idx = idx+1;
 % S(idx).name = 'BYD Company';
@@ -206,9 +206,9 @@ S(idx).stoplossMax = -15;
 % S(idx).name = 'Hispania Activos Inmobiliarios SA';
 % S(idx).symbol = 'HIS.MC';
 
-idx = idx+1;
-S(idx).name = 'Hugo Games';
-S(idx).symbol = 'HUGO.OL';
+% idx = idx+1;
+% S(idx).name = 'Hugo Games';
+% S(idx).symbol = 'HUGO.OL';
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
@@ -514,9 +514,9 @@ idx = idx + 1;
 S(idx).name = 'Yahoo';
 S(idx).symbol = 'YHOO';
 
-idx = idx + 1;
-S(idx).name = 'Zealand Pharma';
-S(idx).symbol = 'ZEAL.CO';
+% idx = idx + 1;
+% S(idx).name = 'Zealand Pharma';
+% S(idx).symbol = 'ZEAL.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
