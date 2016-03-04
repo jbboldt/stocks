@@ -265,6 +265,10 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Knowles';
 S(idx).symbol = 'KN';
+S(idx).bought = '2016-02-26';
+S(idx).price = 11.499;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Københavns Lufthavne';
@@ -468,6 +472,10 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'SolarCity';
 S(idx).symbol = 'SCTY';
+S(idx).bought = '2016-02-26';
+S(idx).price = 19.20;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Solazyme';
