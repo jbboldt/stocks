@@ -178,9 +178,9 @@ S(idx).stoplossMax = -99;
 % S(idx).name = 'General Motors';
 % S(idx).symbol = 'GM';
 
-idx = idx + 1;
-S(idx).name = 'G4S';
-S(idx).symbol = 'G4S.CO';
+% idx = idx + 1;
+% S(idx).name = 'G4S';
+% S(idx).symbol = 'G4S.CO';
 
 idx = idx + 1;
 S(idx).name = 'GenMab';
@@ -413,13 +413,13 @@ S(idx).price = 37;
 S(idx).stoploss = -10;
 S(idx).stoplossMax = -20;
 
-idx = idx+1;
-S(idx).name = 'Precise Biometrics';
-S(idx).symbol = 'PBCB';
-S(idx).bought = '2016-02-17';
-S(idx).price = 4.97;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
+% idx = idx+1;
+% S(idx).name = 'Precise Biometrics';
+% S(idx).symbol = 'PBCB';
+% S(idx).bought = '2016-02-17';
+% S(idx).price = 4.97;
+% S(idx).stoploss = -99;
+% S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'RTX';
