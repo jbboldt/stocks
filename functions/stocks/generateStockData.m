@@ -1,6 +1,10 @@
 idx = 1;
 S(idx).name = 'ALK Abello';
 S(idx).symbol = 'ALK-B.CO';
+S(idx).bought = '2016-02-18';
+S(idx).price = 924;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx+1;
 S(idx).name = 'Analogic Corporation';
@@ -38,21 +42,21 @@ S(idx).symbol = 'ASML.AS';
 % S(idx).name = 'Azkoyen SA';
 % S(idx).symbol = 'AZK.MC';
 
-idx = idx + 1;
-S(idx).name = 'Bakkafrost';
-S(idx).symbol = 'BAKKA.OL';
+% idx = idx + 1;
+% S(idx).name = 'Bakkafrost';
+% S(idx).symbol = 'BAKKA.OL';
 
-idx = idx + 1;
-S(idx).name = 'Bang og Olufsen';
-S(idx).symbol = 'BO.CO';
+% idx = idx + 1;
+% S(idx).name = 'Bang og Olufsen';
+% S(idx).symbol = 'BO.CO';
 
-idx = idx+1;
-S(idx).name = 'Barrick Gold Corporation';
-S(idx).symbol = 'ABX';
+% idx = idx+1;
+% S(idx).name = 'Barrick Gold Corporation';
+% S(idx).symbol = 'ABX';
 
-idx = idx + 1;
-S(idx).name = 'Bavarian Nordic';
-S(idx).symbol = 'BAVA.CO';
+% idx = idx + 1;
+% S(idx).name = 'Bavarian Nordic';
+% S(idx).symbol = 'BAVA.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -61,22 +65,26 @@ S(idx).symbol = 'BAVA.CO';
 idx = idx+1;
 S(idx).name = 'BioGaia';
 S(idx).symbol = 'BIOG-B.ST';
+S(idx).bought = '2016-02-11';
+S(idx).price = 232;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
-idx = idx+1;
-S(idx).name = 'BioInvent';
-S(idx).symbol = 'BINV.ST';
+% idx = idx+1;
+% S(idx).name = 'BioInvent';
+% S(idx).symbol = 'BINV.ST';
 
-idx = idx+1;
-S(idx).name = 'Biotec Pharmacon';
-S(idx).symbol = 'BIOTEC.OL';
+% idx = idx+1;
+% S(idx).name = 'Biotec Pharmacon';
+% S(idx).symbol = 'BIOTEC.OL';
 
-idx = idx+1;
-S(idx).name = 'BioPorto';
-S(idx).symbol = 'BIOPOR.CO';
-
-idx = idx + 1;
-S(idx).name = 'BMW';
-S(idx).symbol = 'BMW.DE';
+% idx = idx+1;
+% S(idx).name = 'BioPorto';
+% S(idx).symbol = 'BIOPOR.CO';
+% 
+% idx = idx + 1;
+% S(idx).name = 'BMW';
+% S(idx).symbol = 'BMW.DE';
 
 % idx = idx+1;
 % S(idx).name = 'BYD Company';
@@ -89,10 +97,18 @@ S(idx).symbol = 'BMW.DE';
 idx = idx + 1;
 S(idx).name = 'Celgene';
 S(idx).symbol = 'CELG';
+S(idx).bought = '2016-02-10';
+S(idx).price = 104.7;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
 S(idx).symbol = 'CHR.CO';
+S(idx).bought = '2016-02-17';
+S(idx).price = 412;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'CSR (US)';
@@ -105,6 +121,10 @@ S(idx).symbol = 'CHR.CO';
 idx = idx + 1;
 S(idx).name = 'Cognex';
 S(idx).symbol = 'CGNX';
+S(idx).bought = '2016-02-18';
+S(idx).price = 36.55;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'E.ON';
@@ -117,6 +137,10 @@ S(idx).symbol = 'CGNX';
 idx=idx+1;
 S(idx).name = 'Codexis';
 S(idx).symbol = 'CDXS';
+S(idx).bought = '2016-02-17';
+S(idx).price = 4.1;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Facebook';
@@ -125,6 +149,10 @@ S(idx).symbol = 'CDXS';
 idx = idx+1;
 S(idx).name = 'FireEye';
 S(idx).symbol = 'FEYE';
+S(idx).bought = '2016-02-12';
+S(idx).price = 11.8799;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx+1;
 S(idx).name = 'First Solar';
@@ -137,6 +165,10 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'FLSmidth';
 S(idx).symbol = 'FLS.CO';
+S(idx).bought = '2016-02-11';
+S(idx).price = 212;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Gamesa';
@@ -146,9 +178,9 @@ S(idx).symbol = 'FLS.CO';
 % S(idx).name = 'General Motors';
 % S(idx).symbol = 'GM';
 
-idx = idx + 1;
-S(idx).name = 'G4S';
-S(idx).symbol = 'G4S.CO';
+% idx = idx + 1;
+% S(idx).name = 'G4S';
+% S(idx).symbol = 'G4S.CO';
 
 idx = idx + 1;
 S(idx).name = 'GenMab';
@@ -190,9 +222,9 @@ S(idx).stoplossMax = -15;
 % S(idx).name = 'Hispania Activos Inmobiliarios SA';
 % S(idx).symbol = 'HIS.MC';
 
-idx = idx+1;
-S(idx).name = 'Hugo Games';
-S(idx).symbol = 'HUGO.OL';
+% idx = idx+1;
+% S(idx).name = 'Hugo Games';
+% S(idx).symbol = 'HUGO.OL';
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
@@ -209,6 +241,10 @@ S(idx).stoplossMax = -35;
 idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
+S(idx).bought = '2016-02-18';
+S(idx).price = 30.35;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'InvenSense';
@@ -225,10 +261,18 @@ S(idx).stoplossMax = -25;
 idx = idx + 1;
 S(idx).name = 'Kandi';
 S(idx).symbol = 'KNDI';
+S(idx).bought = '2016-02-17';
+S(idx).price = 7.1899;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Knowles';
 S(idx).symbol = 'KN';
+S(idx).bought = '2016-02-26';
+S(idx).price = 11.499;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Københavns Lufthavne';
@@ -273,6 +317,10 @@ S(idx).symbol = 'MLNX';
 idx = idx + 1;
 S(idx).name = 'Midsona AB';
 S(idx).symbol = 'MSON-B.ST';
+S(idx).bought = '2016-02-08';
+S(idx).price = 30.10;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Ming Yang Wind Power Group';
@@ -282,9 +330,9 @@ S(idx).price = 2.25;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'NetApp Inc';
-S(idx).symbol = 'NTAP';
+% idx = idx + 1;
+% S(idx).name = 'NetApp Inc';
+% S(idx).symbol = 'NTAP';
 
 % idx = idx + 1;
 % S(idx).name = 'Netflix';
@@ -297,6 +345,10 @@ S(idx).symbol = 'NTAP';
 idx = idx + 1;
 S(idx).name = 'NNIT';
 S(idx).symbol = 'NNIT.CO';
+S(idx).bought = '2015-03-6';
+S(idx).price = 125;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Nordea';
@@ -329,6 +381,10 @@ S(idx).stoplossMax = -25;
 idx = idx + 1;
 S(idx).name = 'NVIDIA';
 S(idx).symbol = 'NVDA';
+S(idx).bought = '2016-02-17';
+S(idx).price = 30.19;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'NXP Semiconductors';
@@ -365,21 +421,29 @@ S(idx).price = 37;
 S(idx).stoploss = -10;
 S(idx).stoplossMax = -20;
 
-idx = idx+1;
-S(idx).name = 'Precise Biometrics';
-S(idx).symbol = 'PBCB';
+% idx = idx+1;
+% S(idx).name = 'Precise Biometrics';
+% S(idx).symbol = 'PBCB';
+% S(idx).bought = '2016-02-17';
+% S(idx).price = 4.97;
+% S(idx).stoploss = -99;
+% S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'RTX';
 S(idx).symbol = 'RTX.CO';
+S(idx).bought = '2016-02-17';
+S(idx).price = 77;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Roblon';
 % S(idx).symbol = 'RBLN-B.CO';
 
-% idx=idx+1;
-% S(idx).name = 'Salmar';
-% S(idx).symbol = 'SALM.OL';
+idx=idx+1;
+S(idx).name = 'Salmar';
+S(idx).symbol = 'SALM.OL';
 
 idx=idx+1;
 S(idx).name = 'Saeta Yield SA';
@@ -408,10 +472,18 @@ S(idx).stoplossMax = -40;
 idx = idx + 1;
 S(idx).name = 'Skyworks Solutions';
 S(idx).symbol = 'SWKS';
+S(idx).bought = '2016-02-18';
+S(idx).price = 62.05;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'SolarCity';
 S(idx).symbol = 'SCTY';
+S(idx).bought = '2016-02-26';
+S(idx).price = 19.20;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Solazyme';
@@ -428,6 +500,10 @@ S(idx).symbol = 'TSM';
 idx = idx + 1;
 S(idx).name = 'TDC';
 S(idx).symbol = 'TDC.CO';
+S(idx).bought = '2016-02-17';
+S(idx).price = 30.55;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'The Tile Shop';
@@ -436,7 +512,6 @@ S(idx).bought = '2015-04-07';
 S(idx).price = 12.5;
 S(idx).stoploss = -9;
 S(idx).stoplossMax = -15;
-
 
 % idx = idx + 1;
 % S(idx).name = 'Tesla Motors';
@@ -449,6 +524,10 @@ S(idx).stoplossMax = -15;
 idx = idx + 1;
 S(idx).name = 'Tryg';
 S(idx).symbol = 'TRYG.CO';
+S(idx).bought = '2016-02-17';
+S(idx).price = 125.5;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Under Armor';
@@ -501,10 +580,14 @@ S(idx).symbol = 'WFM';
 idx = idx + 1;
 S(idx).name = 'Yahoo';
 S(idx).symbol = 'YHOO';
+S(idx).bought = '2016-02-17';
+S(idx).price = 29.30;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'Zealand Pharma';
-S(idx).symbol = 'ZEAL.CO';
+% idx = idx + 1;
+% S(idx).name = 'Zealand Pharma';
+% S(idx).symbol = 'ZEAL.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
