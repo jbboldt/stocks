@@ -522,6 +522,10 @@ S(idx).stoplossMax = -15;
 % S(idx).symbol = 'TGS.OL';
 
 idx = idx + 1;
+S(idx).name = 'Tripadvisor';
+S(idx).symbol = 'TRIP';
+
+idx = idx + 1;
 S(idx).name = 'Tryg';
 S(idx).symbol = 'TRYG.CO';
 S(idx).bought = '2016-02-17';
