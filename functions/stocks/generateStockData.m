@@ -305,6 +305,10 @@ S(idx).stoplossMax = -10;
 idx = idx + 1;
 S(idx).name = 'Mellanox';
 S(idx).symbol = 'MLNX';
+S(idx).bought = '2014-05-18';
+S(idx).price = 42.58;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Merlin Properties SA';
