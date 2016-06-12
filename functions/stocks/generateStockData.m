@@ -1,4 +1,8 @@
 idx = 1;
+S(idx).name = 'ABB';
+S(idx).symbol = 'ABB';
+
+idx = idx + 1;
 S(idx).name = 'ALK Abello';
 S(idx).symbol = 'ALK-B.CO';
 S(idx).bought = '2016-02-18';
@@ -142,6 +146,10 @@ S(idx).price = 4.1;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
+idx = idx+1;
+S(idx).name = 'Dong Energy';
+S(idx).symbol = 'DENERG.CO';
+
 % idx = idx + 1;
 % S(idx).name = 'Facebook';
 % S(idx).symbol = 'FB';
@@ -190,9 +198,9 @@ S(idx).price = 234;
 S(idx).stoploss = 150;
 S(idx).stoplossMax = -15;
 
-% idx = idx + 1;
-% S(idx).name = 'Gilead Sciences Inc.';
-% S(idx).symbol = 'GILD';
+idx = idx + 1;
+S(idx).name = 'Gilead Sciences Inc.';
+S(idx).symbol = 'GILD';
 
 % idx = idx + 1;
 % S(idx).name = 'Google';
@@ -489,10 +497,6 @@ S(idx).price = 19.20;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'Solazyme';
-S(idx).symbol = 'SZYM';
-
 % idx=idx+1;
 % S(idx).name = 'Southwest Airlines Co.';
 % S(idx).symbol = 'LUV';
@@ -508,6 +512,10 @@ S(idx).bought = '2016-02-17';
 S(idx).price = 30.55;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
+
+idx = idx + 1;
+S(idx).name = 'TerraVia';
+S(idx).symbol = 'TVIA';
 
 idx = idx + 1;
 S(idx).name = 'The Tile Shop';
