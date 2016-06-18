@@ -46,9 +46,9 @@ S(idx).symbol = 'ASML.AS';
 % S(idx).name = 'Azkoyen SA';
 % S(idx).symbol = 'AZK.MC';
 
-% idx = idx + 1;
-% S(idx).name = 'Bakkafrost';
-% S(idx).symbol = 'BAKKA.OL';
+idx = idx + 1;
+S(idx).name = 'Bakkafrost';
+S(idx).symbol = 'BAKKA.OL';
 
 % idx = idx + 1;
 % S(idx).name = 'Bang og Olufsen';
@@ -290,9 +290,9 @@ S(idx).symbol = 'KBHL.CO';
 % S(idx).name = 'Lar Espana Real Estate';
 % S(idx).symbol = 'LRE.MC';
 
-% idx = idx + 1;
-% S(idx).name = 'Leroy Seafood';
-% S(idx).symbol = 'LSG.OL';
+idx = idx + 1;
+S(idx).name = 'Leroy Seafood';
+S(idx).symbol = 'LSG.OL';
 
 % idx = idx + 1;
 % S(idx).name = 'LinkedIN';
@@ -469,9 +469,9 @@ S(idx).stoplossMax = -20;
 % S(idx).name = 'SAS';
 % S(idx).symbol = 'SAS-DKK.CO';
 
-% idx = idx + 1;
-% S(idx).name = 'Schouw';
-% S(idx).symbol = 'SCHO.CO';
+idx = idx + 1;
+S(idx).name = 'Schouw';
+S(idx).symbol = 'SCHO.CO';
 
 idx = idx + 1;
 S(idx).name = 'Seattle Genetics';
