@@ -58,9 +58,9 @@ S(idx).symbol = 'BAKKA.OL';
 % S(idx).name = 'Barrick Gold Corporation';
 % S(idx).symbol = 'ABX';
 
-% idx = idx + 1;
-% S(idx).name = 'Bavarian Nordic';
-% S(idx).symbol = 'BAVA.CO';
+idx = idx + 1;
+S(idx).name = 'Bavarian Nordic';
+S(idx).symbol = 'BAVA.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -254,9 +254,9 @@ S(idx).price = 30.35;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'InvenSense';
-S(idx).symbol = 'INVN';
+% idx = idx + 1;
+% S(idx).name = 'InvenSense';
+% S(idx).symbol = 'INVN';
 
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
@@ -601,9 +601,9 @@ S(idx).price = 29.30;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-% idx = idx + 1;
-% S(idx).name = 'Zealand Pharma';
-% S(idx).symbol = 'ZEAL.CO';
+idx = idx + 1;
+S(idx).name = 'Zealand Pharma';
+S(idx).symbol = 'ZEAL.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
