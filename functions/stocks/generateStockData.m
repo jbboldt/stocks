@@ -35,6 +35,10 @@ S(idx).stoplossMax = -99;
 % S(idx).symbol = 'AAPL';
 
 idx = idx + 1;
+S(idx).name = 'ARM Holdings';
+S(idx).symbol = 'ARMH ';
+
+idx = idx + 1;
 S(idx).name = 'ASML Holding';
 S(idx).symbol = 'ASML.AS';
 
