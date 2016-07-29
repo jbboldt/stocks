@@ -350,9 +350,9 @@ S(idx).stoplossMax = -99;
 % S(idx).name = 'Netflix';
 % S(idx).symbol = 'NFLX';
 
-% idx = idx + 1;
-% S(idx).name = 'NKT';
-% S(idx).symbol = 'NKT.CO';
+idx = idx + 1;
+S(idx).name = 'NKT';
+S(idx).symbol = 'NKT.CO';
 
 idx = idx + 1;
 S(idx).name = 'NNIT';
@@ -525,9 +525,9 @@ S(idx).price = 12.5;
 S(idx).stoploss = -9;
 S(idx).stoplossMax = -15;
 
-% idx = idx + 1;
-% S(idx).name = 'Tesla Motors';
-% S(idx).symbol = 'TSLA';
+idx = idx + 1;
+S(idx).name = 'Tesla Motors';
+S(idx).symbol = 'TSLA';
 
 % idx = idx + 1;
 % S(idx).name = 'TGS-Nopec Geophysics';
@@ -536,6 +536,10 @@ S(idx).stoplossMax = -15;
 idx = idx + 1;
 S(idx).name = 'Tripadvisor';
 S(idx).symbol = 'TRIP';
+S(idx).bought = '2016-07-12';
+S(idx).price = 65.56;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Tryg';
@@ -549,7 +553,7 @@ idx = idx + 1;
 S(idx).name = 'Under Armor';
 S(idx).symbol = 'UA';
 S(idx).bought = '2015-03-18';
-S(idx).price = 78.44;
+S(idx).price = 39.22;
 S(idx).stoploss = -9;
 S(idx).stoplossMax = -25;
 
@@ -569,9 +573,9 @@ S(idx).price = 1.87;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'Westport Innovations';
-S(idx).symbol = 'WPRT';
+% idx = idx + 1;
+% S(idx).name = 'Westport Innovations';
+% S(idx).symbol = 'WPRT';
 
 idx = idx + 1;
 S(idx).name = 'WhiteWave Foods';
