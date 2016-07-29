@@ -118,6 +118,10 @@ S(idx).price = 412;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
+idx = idx + 1;
+S(idx).name = 'Cisco Systems';
+S(idx).symbol = 'CSCO';
+
 % idx = idx + 1;
 % S(idx).name = 'CSR (US)';
 % S(idx).symbol = 'CSRE';
@@ -237,6 +241,10 @@ S(idx).symbol = 'GILD';
 % idx = idx+1;
 % S(idx).name = 'Hugo Games';
 % S(idx).symbol = 'HUGO.OL';
+
+% idx = idx + 1;
+% S(idx).name = 'IBM';
+% S(idx).symbol = 'IBM';
 
 idx = idx + 1;
 S(idx).name = 'IDEX';
