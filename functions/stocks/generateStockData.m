@@ -259,6 +259,10 @@ S(idx).stoplossMax = -35;
 % S(idx).symbol = 'INTC';
 
 idx = idx + 1;
+S(idx).name = 'Illumina';
+S(idx).symbol = 'ILMN';
+
+idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
 S(idx).bought = '2016-02-18';
