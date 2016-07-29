@@ -51,7 +51,7 @@ for cS = 1 : length(stockHist)
   C{ 3 } = days;
   
   [ C{6}, ~ ] = rsi( stockHist(cS).day.close, 14 );
-  [ C{7}, ~, ~, ~ ] = macd( stockHist(cS).day.close, [ 26, 12, 9 ] );
+  [ C{7}, ~, ~, ~, C{11} ] = macd( stockHist(cS).day.close, [ 26, 12, 9 ] );
   
   pChange = (stockHist(cS).day.close(end)-stockHist(cS).day.close(end-5))/stockHist(cS).day.close(end-5) * 100;
   C{8} = [num2str(roundn(pChange,-1)),'%'];
@@ -104,7 +104,7 @@ end
 
 [ nS, nV ] = size( T );
 
-L = { 'Name', 'CurrentMode', 'days', '%', '%Max', 'RSI', 'MACD', '5d', '10d', '20d' };
+L = { 'Name', 'CurrentMode', 'days', '%', '%Max', 'RSI', 'MACD', '5d', '10d', '20d', 'MACD Hist' };
 
 % Sort Table T
 [y,idx] = sort( modeT );
@@ -132,6 +132,7 @@ colWidth( 3 ) = 50;
 colWidth( 4:7 ) = 50;
 
 colWidth( 8:10 ) = 70;
+colWidth( 11 ) = 120;
 
 tdAlign( 1:nV ) = { 'center' };
 tdAlign( 1 ) = { 'left' };
@@ -241,6 +242,8 @@ if exist( 'O' )
 end
 fprintf( fH, '</body>\n</html>\n' );
 fclose( fH );
+
+
 
 %% Plots
 idx = 1;
