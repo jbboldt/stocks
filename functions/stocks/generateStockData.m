@@ -263,6 +263,10 @@ S(idx).name = 'Illumina';
 S(idx).symbol = 'ILMN';
 
 idx = idx + 1;
+S(idx).name = 'Intricon';
+S(idx).symbol = 'IIN';
+
+idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
 S(idx).bought = '2016-02-18';
