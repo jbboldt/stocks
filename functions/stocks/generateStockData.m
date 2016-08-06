@@ -354,13 +354,13 @@ S(idx).price = 30.10;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'Ming Yang Wind Power Group';
-S(idx).symbol = 'MY';
-S(idx).bought = '2013-12-03';
-S(idx).price = 2.25;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
+% idx = idx + 1;
+% S(idx).name = 'Ming Yang Wind Power Group';
+% S(idx).symbol = 'MY';
+% S(idx).bought = '2013-12-03';
+% S(idx).price = 2.25;
+% S(idx).stoploss = -99;
+% S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'NetApp Inc';
