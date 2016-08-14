@@ -267,6 +267,10 @@ for c = 1 : length(stockHist)
   
   fName{idx} = makeStockPlotSimple(stockHist(c),'candle',40,targetDir);
   idx=idx+1;
+  
+  fName{idx} = makeStockPlot(stockHist(c), 'maLongMulti', 1000, targetDir );
+  idx=idx+1;
+
 end
 
 close all

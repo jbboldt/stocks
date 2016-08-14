@@ -17,5 +17,6 @@ fprintf( fH, '<img src="%smacd.png" width="1600" height="900"><br>\n', stockName
 fprintf( fH, '<img src="%sbollinger.png" width="1600" height="900"><br>\n', stockName );
 fprintf( fH, '<img src="%smaLong.png" width="1600" height="900"><br>\n', stockName );
 fprintf( fH, '<img src="%scandle.png" width="1600" height="900"><br>\n', stockName );
+fprintf( fH, '<img src="%smaLongMulti.png" width="1600" height="900"><br>\n', stockName );
 
 fclose( fH );
