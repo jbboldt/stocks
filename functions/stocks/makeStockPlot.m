@@ -101,7 +101,7 @@ switch plotType
         legend( '60', '100', '200', 'location', 'northwest' );
         
     case 'maLongMulti'
-        
+        %%
         axes( hA( 3 ) )
         
         logVolume = log10(DG.stockHist.day.volume( DG.cIdx ));
@@ -118,17 +118,33 @@ switch plotType
             line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
                 'color', [.7 .7 .7], 'linewidth', 1)
         end
-        
+
         load hotCM
         hCI = 1;
-        for mM = [5,10,20,40,80,160,320];
+        maDiff = [];
+        for mM = [5 10 20 30 80 160 320];
             
             [~, ma ]=movavg( DG.stockHist.day.close, 1, mM, 0 );
-            plot( log10( ma( DG.cIdx ) ) , 'linewidth', 1, 'color', hotCM(hCI,:));
+            plot( log10( ma( DG.cIdx ) ) , 'linewidth', 1.2, 'color', hotCM(hCI,:));
             hold on
             hCI = hCI + 8;
+            if mM > 5
+                maDiff = [maDiff,log10(maPrev( DG.cIdx ))-log10(ma( DG.cIdx ))];
+            end
+            
+            maPrev = ma;
         end
         
+        axes( hA( 1 ) )
+        %area(fliplr(maDiff), 'LineStyle', 'none')
+        area(fliplr(maDiff), 'EdgeColor', [1 1 1 ])
+        colormap(flipud(hotCM(1:end-10,:)))
+        
+        axes( hA( 3 ) )
+        maDiff(maDiff<0)=0;
+        area(fliplr(maDiff), 'EdgeColor', [1 1 1 ])
+        colormap(flipud(hotCM(1:end-10,:)))
+        %%
     case 'bollinger'
         
         axes( hA( 1 ) )
