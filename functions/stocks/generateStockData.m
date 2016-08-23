@@ -325,10 +325,6 @@ S(idx).symbol = 'LUN.CO';
 idx = idx + 1;
 S(idx).name = 'Marine Harvest';
 S(idx).symbol = 'MHG.OL';
-S(idx).bought = '2014-06-24';
-S(idx).price = 82.45;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Mellanox';
