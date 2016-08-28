@@ -158,6 +158,10 @@ idx = idx+1;
 S(idx).name = 'Dong Energy';
 S(idx).symbol = 'DENERG.CO';
 
+idx = idx + 1;
+S(idx).name = 'e2v Technologies plc';
+S(idx).symbol = 'E2V.L';
+
 % idx = idx + 1;
 % S(idx).name = 'Facebook';
 % S(idx).symbol = 'FB';
