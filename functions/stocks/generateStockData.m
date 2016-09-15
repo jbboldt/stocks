@@ -1,8 +1,4 @@
 idx = 1;
-S(idx).name = 'ABB';
-S(idx).symbol = 'ABB';
-
-idx = idx + 1;
 S(idx).name = 'ALK Abello';
 S(idx).symbol = 'ALK-B.CO';
 S(idx).bought = '2016-02-18';
@@ -65,6 +61,10 @@ S(idx).symbol = 'BAKKA.OL';
 idx = idx + 1;
 S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
+S(idx).bought = '2016-09-08';
+S(idx).price = 248.50;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -210,9 +210,9 @@ S(idx).price = 234;
 S(idx).stoploss = 150;
 S(idx).stoplossMax = -15;
 
-idx = idx + 1;
-S(idx).name = 'Gilead Sciences Inc.';
-S(idx).symbol = 'GILD';
+% idx = idx + 1;
+% S(idx).name = 'Gilead Sciences Inc.';
+% S(idx).symbol = 'GILD';
 
 % idx = idx + 1;
 % S(idx).name = 'Google';
@@ -278,9 +278,9 @@ S(idx).price = 30.35;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-% idx = idx + 1;
-% S(idx).name = 'InvenSense';
-% S(idx).symbol = 'INVN';
+idx = idx + 1;
+S(idx).name = 'InvenSense';
+S(idx).symbol = 'INVN';
 
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
@@ -306,17 +306,17 @@ S(idx).price = 11.499;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'Københavns Lufthavne';
-S(idx).symbol = 'KBHL.CO';
+% idx = idx + 1;
+% S(idx).name = 'Københavns Lufthavne';
+% S(idx).symbol = 'KBHL.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Lar Espana Real Estate';
 % S(idx).symbol = 'LRE.MC';
 
-idx = idx + 1;
-S(idx).name = 'Leroy Seafood';
-S(idx).symbol = 'LSG.OL';
+% idx = idx + 1;
+% S(idx).name = 'Leroy Seafood';
+% S(idx).symbol = 'LSG.OL';
 
 % idx = idx + 1;
 % S(idx).name = 'LinkedIN';
@@ -326,9 +326,9 @@ idx = idx + 1;
 S(idx).name = 'Lundbeck';
 S(idx).symbol = 'LUN.CO';
 
-idx = idx + 1;
-S(idx).name = 'Marine Harvest';
-S(idx).symbol = 'MHG.OL';
+% idx = idx + 1;
+% S(idx).name = 'Marine Harvest';
+% S(idx).symbol = 'MHG.OL';
 
 idx = idx + 1;
 S(idx).name = 'Mellanox';
@@ -370,9 +370,9 @@ S(idx).stoplossMax = -99;
 % S(idx).name = 'Netflix';
 % S(idx).symbol = 'NFLX';
 
-idx = idx + 1;
-S(idx).name = 'NKT';
-S(idx).symbol = 'NKT.CO';
+% idx = idx + 1;
+% S(idx).name = 'NKT';
+% S(idx).symbol = 'NKT.CO';
 
 idx = idx + 1;
 S(idx).name = 'NNIT';
