@@ -426,6 +426,10 @@ S(idx).price = 90.35;
 S(idx).stoploss = -20;
 S(idx).stoplossMax = -40;
 
+idx = idx + 1;
+S(idx).name = 'ON Semiconductor';
+S(idx).symbol = 'ON';
+
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
 % S(idx).symbol = 'ONXEO.CO';
