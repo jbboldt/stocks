@@ -117,10 +117,6 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
 S(idx).symbol = 'CHR.CO';
-S(idx).bought = '2016-02-17';
-S(idx).price = 412;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Cisco Systems';
@@ -556,6 +552,10 @@ S(idx).symbol = 'TSM';
 idx = idx + 1;
 S(idx).name = 'TerraVia';
 S(idx).symbol = 'TVIA';
+S(idx).bought = '2016-09-28';
+S(idx).price = 2.8299;
+S(idx).stoploss = -50;
+S(idx).stoplossMax = -50;
 
 idx = idx + 1;
 S(idx).name = 'The Tile Shop';
@@ -584,10 +584,6 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Tryg';
 S(idx).symbol = 'TRYG.CO';
-S(idx).bought = '2016-02-17';
-S(idx).price = 125.5;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Under Armor';
