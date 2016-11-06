@@ -100,6 +100,51 @@ switch plotType
         
         legend( '60', '100', '200', 'location', 'northwest' );
         
+    case 'maLongMulti'
+        %%
+        axes( hA( 3 ) )
+        
+        logVolume = log10(DG.stockHist.day.volume( DG.cIdx ));
+        bar( 1 : nDay, logVolume, 1, 'FaceColor', getColor(8), 'EdgeColor', getColor(8) );
+        ylim([min(logVolume(logVolume>-inf)).*0.99,max(logVolume)*1.01]);
+        ylabel( 'log Volume' );
+        
+        axes( hA( 2 ))
+        if ~isempty(DG.stockHist.bought)
+            buyIdx = find(DG.stockHist.day.sdn==datenum(DG.stockHist.bought))-DG.cIdx(1);
+            line([buyIdx, buyIdx],log10([DG.stockHist.price.*0.9,DG.stockHist.price*1.1]), ...
+                'color', [.7 .7 .7], 'linewidth', 1)
+            hold on
+            line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
+                'color', [.7 .7 .7], 'linewidth', 1)
+        end
+
+        load hotCM
+        hCI = 1;
+        maDiff = [];
+        for mM = [5 10 20 30 80 160 320];
+            
+            [~, ma ]=movavg( DG.stockHist.day.close, 1, mM, 0 );
+            plot( log10( ma( DG.cIdx ) ) , 'linewidth', 1.2, 'color', hotCM(hCI,:));
+            hold on
+            hCI = hCI + 8;
+            if mM > 5
+                maDiff = [maDiff,log10(maPrev( DG.cIdx ))-log10(ma( DG.cIdx ))];
+            end
+            
+            maPrev = ma;
+        end
+        
+        axes( hA( 1 ) )
+        %area(fliplr(maDiff), 'LineStyle', 'none')
+        area(fliplr(maDiff), 'EdgeColor', [1 1 1 ])
+        colormap(flipud(hotCM(1:end-10,:)))
+        
+        axes( hA( 3 ) )
+        maDiff(maDiff<0)=0;
+        area(fliplr(maDiff), 'EdgeColor', [1 1 1 ])
+        colormap(flipud(hotCM(1:end-10,:)))
+        %%
     case 'bollinger'
         
         axes( hA( 1 ) )
@@ -308,6 +353,10 @@ switch plotType
             [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
             max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);
         set( hhl,'linewidth', 1.5 )
+    case 'maLongMulti'
+        set(hA(2),'YLim', ...
+            [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
+            max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);
     otherwise
         hhl = highlow( log10( DG.stockHist.day.high( DG.cIdx ) ), ...
             log10( DG.stockHist.day.low( DG.cIdx ) ), ...

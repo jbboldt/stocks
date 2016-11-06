@@ -7,6 +7,13 @@ S(idx).price = 673;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -5;
 
+return
+
+idx = idx + 1;
+S(idx).name = 'Lundbeck';
+S(idx).symbol = 'LUN.CO';
+
+idx = idx+1;
 S(idx).name = 'Photocure';
 S(idx).symbol = 'PHO.OL';
 S(idx).bought = '2015-12-14';
@@ -14,7 +21,11 @@ S(idx).price = 37;
 S(idx).stoploss = -10;
 S(idx).stoplossMax = -10;
 
-return
+idx = idx + 1;
+S(idx).name = 'Tripadvisor';
+S(idx).symbol = 'TRIP';
+
+
 
 idx = 1;
 S(idx).name = 'SnP 500';
