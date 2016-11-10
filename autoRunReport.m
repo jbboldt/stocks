@@ -7,3 +7,5 @@ makeIndexReport
 %makeCommodityReport
 makeInterestReport
 exit
+
+%tests
