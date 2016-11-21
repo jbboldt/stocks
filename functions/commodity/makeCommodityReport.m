@@ -18,24 +18,32 @@ fH = fopen(tempFile,'w');
 fprintf( fH, '<h1>%s</h1>', datestr( now ) );
 
 % Gold
-data = Quandl.get('OFDP/GOLD_2');
-S(1).sdn = data.USD.Time+datenum(data.USD.TimeInfo.StartDate);
-S(1).data = data.USD.Data;
+% data = Quandl.get('OFDP/GOLD_2');
+% S(1).sdn = data.USD.Time+datenum(data.USD.TimeInfo.StartDate);
+% S(1).data = data.USD.Data;
+% opt.title = ['Gold USD'];
+% fn = makeInvestPlot(S,tS,opt);
+% htmlAddFigure(fH,fn);
+
+data = Quandl.get('BUNDESBANK/BBK01_WT5511')
+S(1).sdn = data.Time+datenum(data.TimeInfo.StartDate);
+S(1).data = data.Data;
 opt.title = ['Gold USD'];
 fn = makeInvestPlot(S,tS,opt);
 htmlAddFigure(fH,fn);
 
 %Oil
-data = Quandl.get('OFDP/FUTURE_B1');
-S(2).sdn = data.Settle.Time+datenum(data.Settle.TimeInfo.StartDate);
-S(2).data = data.Settle.Data;
+data = Quandl.get('GOOG/LON_OILB');
+D = data.get;
+S(2).sdn = D.Time+datenum(D.TimeInfo.StartDate);
+S(2).data = D.Close.Data;
 opt.title = ['Brent Oil'];
 fn = makeInvestPlot(S(2),tS,opt);
 htmlAddFigure(fH,fn);
 
 fprintf( fH, '<h1>Long Term</h1>', datestr( now ) );
 
-tS = 300*10;
+tS = 200*10;
 opt.title = ['Gold USD'];
 fn = makeInvestPlot(S(1),tS,opt);
 htmlAddFigure(fH,fn);

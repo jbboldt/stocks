@@ -4,7 +4,7 @@ addpath(genpath('functions'))
 makeReport
 makeCurrencyReport
 makeIndexReport
-%makeCommodityReport
+makeCommodityReport
 makeInterestReport
 exit
 
