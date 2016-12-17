@@ -525,9 +525,9 @@ S(idx).price = 62.05;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-idx = idx + 1;
-S(idx).name = 'SolarCity';
-S(idx).symbol = 'SCTY';
+% idx = idx + 1;
+% S(idx).name = 'SolarCity';
+% S(idx).symbol = 'SCTY';
 % S(idx).bought = '2016-02-26';
 % S(idx).price = 19.20;
 % S(idx).stoploss = -99;
@@ -564,6 +564,10 @@ S(idx).stoplossMax = -15;
 idx = idx + 1;
 S(idx).name = 'Tesla Motors';
 S(idx).symbol = 'TSLA';
+S(idx).bought = '2016-11-23';
+S(idx).price = 194.4;
+S(idx).stoploss = -9;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'TGS-Nopec Geophysics';
