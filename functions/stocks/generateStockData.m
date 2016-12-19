@@ -573,9 +573,9 @@ S(idx).stoplossMax = -15;
 % S(idx).name = 'TGS-Nopec Geophysics';
 % S(idx).symbol = 'TGS.OL';
 
-idx = idx + 1;
-S(idx).name = 'Torm PLC';
-S(idx).symbol = 'TRMD-A.CO';
+% idx = idx + 1;
+% S(idx).name = 'Torm PLC';
+% S(idx).symbol = 'TRMD-A.CO';
 
 idx = idx + 1;
 S(idx).name = 'Tripadvisor';
