@@ -1,11 +1,11 @@
 clear S
 idx = 1;
-S(idx).name = 'ALK Abello';
-S(idx).symbol = 'ALK-B.CO';
-S(idx).bought = '2015-01-06';
-S(idx).price = 673;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -5;
+S(idx).name = 'GenMab';
+S(idx).symbol = 'GEN.CO';
+S(idx).bought = '2014-06-06';
+S(idx).price = 234;
+S(idx).stoploss = 150;
+S(idx).stoplossMax = -15;
 
 return
 

@@ -574,6 +574,10 @@ S(idx).stoplossMax = -15;
 % S(idx).symbol = 'TGS.OL';
 
 idx = idx + 1;
+S(idx).name = 'Torm PLC';
+S(idx).symbol = 'TRMD-A.CO';
+
+idx = idx + 1;
 S(idx).name = 'Tripadvisor';
 S(idx).symbol = 'TRIP';
 S(idx).bought = '2016-07-12';

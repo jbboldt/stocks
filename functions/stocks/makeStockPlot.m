@@ -118,7 +118,7 @@ switch plotType
             line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
                 'color', [.7 .7 .7], 'linewidth', 1)
         end
-
+        
         load hotCM
         hCI = 1;
         maDiff = [];
@@ -363,6 +363,9 @@ switch plotType
             log10( DG.stockHist.day.close( DG.cIdx ) ), ...
             log10( DG.stockHist.day.open( DG.cIdx ) ), [ 0 0 0 ] );
         set( hhl,'linewidth', 1.8 )
+        set(hA(2),'YLim', ...
+            [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
+            max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);
 end
 
 xlim( [ 1 nDay + 1 ] )
