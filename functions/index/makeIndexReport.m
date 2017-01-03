@@ -31,6 +31,7 @@ I = calGetYahoo(I,'^N225',floor(now)-nY*365,floor(now),'d');
 I = calGetYahoo(I,'^FCHI',floor(now)-nY*365,floor(now),'d');
 I = calGetYahoo(I,'^IBEX',floor(now)-nY*365,floor(now),'d');
 
+%save('indexData','I');
 %%
 makeIndexHtml(I,targetDir);
 close all
