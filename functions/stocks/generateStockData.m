@@ -7,6 +7,10 @@ S(idx).stoploss = -5;
 S(idx).stoplossMax = -30;
 
 idx = idx+1;
+S(idx).name = 'Alphabet';
+S(idx).symbol = 'GOOGL';
+
+idx = idx+1;
 S(idx).name = 'Analogic Corporation';
 S(idx).symbol = 'ALOG';
 S(idx).bought = '2015-05-18';
@@ -31,10 +35,6 @@ S(idx).symbol = 'AMBA';
 % S(idx).symbol = 'AAPL';
 
 idx = idx + 1;
-S(idx).name = 'ARM Holdings';
-S(idx).symbol = 'ARMH ';
-
-idx = idx + 1;
 S(idx).name = 'ASML Holding';
 S(idx).symbol = 'ASML.AS';
 
@@ -45,6 +45,10 @@ S(idx).symbol = 'ASML.AS';
 % idx = idx+1;
 % S(idx).name = 'Azkoyen SA';
 % S(idx).symbol = 'AZK.MC';
+
+idx = idx+1;
+S(idx).name = 'Baidu';
+S(idx).symbol = 'BIDU';
 
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
@@ -101,6 +105,10 @@ S(idx).stoplossMax = -5;
 % idx = idx+1;
 % S(idx).name = 'BYD Company';
 % S(idx).symbol = '1211.HK';
+
+idx = idx+1;
+S(idx).name = 'CalAmp';
+S(idx).symbol = 'CAMP';
 
 % idx = idx + 1;
 % S(idx).name = 'Carlsberg';
@@ -162,13 +170,17 @@ idx = idx + 1;
 S(idx).name = 'e2v Technologies plc';
 S(idx).symbol = 'E2V.L';
 
+idx = idx+1;
+S(idx).name = 'Etsy';
+S(idx).symbol = 'ETSY';
+
 idx = idx + 1;
 S(idx).name = 'ExpreS2ion Biotech Holding AB';
 S(idx).symbol = 'EXPRS2.ST';
 
-% idx = idx + 1;
-% S(idx).name = 'Facebook';
-% S(idx).symbol = 'FB';
+idx = idx + 1;
+S(idx).name = 'Facebook';
+S(idx).symbol = 'FB';
 
 idx = idx+1;
 S(idx).name = 'FireEye';
@@ -201,6 +213,10 @@ S(idx).symbol = 'FLS.CO';
 % idx = idx + 1;
 % S(idx).name = 'G4S';
 % S(idx).symbol = 'G4S.CO';
+
+idx = idx+1;
+S(idx).name = 'Gartner';
+S(idx).symbol = 'IT';
 
 idx = idx + 1;
 S(idx).name = 'GenMab';
@@ -257,6 +273,10 @@ S(idx).bought = '2015-03-16';
 S(idx).price = 5.99;
 S(idx).stoploss = 15;
 S(idx).stoplossMax = -40;
+
+idx = idx + 1;
+S(idx).name = 'Impinj';
+S(idx).symbol = 'PI';
 
 % idx = idx + 1;
 % S(idx).name = 'Intel';
@@ -469,6 +489,10 @@ S(idx).stoplossMax = -25;
 % S(idx).stoploss = -99;
 % S(idx).stoplossMax = -99;
 
+idx = idx+1;
+S(idx).name = 'ResMed';
+S(idx).symbol = 'RMD';
+
 idx = idx + 1;
 S(idx).name = 'RTX';
 S(idx).symbol = 'RTX.CO';
@@ -581,6 +605,10 @@ idx = idx + 1;
 S(idx).name = 'Tryg';
 S(idx).symbol = 'TRYG.CO';
 
+idx = idx+1;
+S(idx).name = 'Ubiquiti Networks';
+S(idx).symbol = 'UBNT';
+
 idx = idx + 1;
 S(idx).name = 'Under Armor';
 S(idx).symbol = 'UA';
@@ -597,6 +625,10 @@ S(idx).stoplossMax = -50;
 % S(idx).name = 'Valeo';
 % S(idx).symbol = 'FR.PA';
 
+idx = idx+1;
+S(idx).name = 'Veeva Systems';
+S(idx).symbol = 'VEEV';
+
 idx=idx+1;
 S(idx).name = 'Veloxis Pharmacy';
 S(idx).symbol = 'VELO.CO';
@@ -604,6 +636,10 @@ S(idx).bought = '2014-06-17';
 S(idx).price = 1.87;
 S(idx).stoploss = -50;
 S(idx).stoplossMax = -50;
+
+idx=idx+1;
+S(idx).name = 'Vestas';
+S(idx).symbol = 'VWS.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Westport Innovations';
@@ -629,9 +665,9 @@ idx = idx + 1;
 S(idx).name = 'Whole Foods Market';
 S(idx).symbol = 'WFM';
 
-idx = idx + 1;
-S(idx).name = 'Yahoo';
-S(idx).symbol = 'YHOO';
+% idx = idx + 1;
+% S(idx).name = 'Yahoo';
+% S(idx).symbol = 'YHOO';
 
 idx = idx + 1;
 S(idx).name = 'Zealand Pharma';
