@@ -621,9 +621,9 @@ idx = idx + 1;
 S(idx).name = 'William Demant Holding';
 S(idx).symbol = 'WDH.CO';
 S(idx).bought = '2015-12-29';
-S(idx).price = 641;
+S(idx).price = 125;
 S(idx).stoploss = -10;
-S(idx).stoplossMax = -20;
+S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'Whole Foods Market';

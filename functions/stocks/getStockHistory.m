@@ -34,6 +34,13 @@ elseif strcmp( S.symbol, 'TRYG.CO' )
     day.high(idx)=day.high(idx)/scaler;
     day.low(idx)=day.low(idx)/scaler;
     day.close(idx)=day.close(idx)/scaler;
+elseif strcmp( S.symbol, 'WDH.CO' )
+    idx = day.sdn < 736474;
+    scaler = 5;
+    day.open(idx)=day.open(idx)/scaler;
+    day.high(idx)=day.high(idx)/scaler;
+    day.low(idx)=day.low(idx)/scaler;
+    day.close(idx)=day.close(idx)/scaler;
 end
 
 stockHist.ticker = S.symbol;
