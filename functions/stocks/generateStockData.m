@@ -659,7 +659,7 @@ S(idx).symbol = 'WDH.CO';
 S(idx).bought = '2015-12-29';
 S(idx).price = 125;
 S(idx).stoploss = -10;
-S(idx).stoplossMax = -10;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Whole Foods Market';
