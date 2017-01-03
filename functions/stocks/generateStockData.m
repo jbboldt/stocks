@@ -574,8 +574,8 @@ S(idx).name = 'Tripadvisor';
 S(idx).symbol = 'TRIP';
 S(idx).bought = '2016-07-12';
 S(idx).price = 65.56;
-S(idx).stoploss = -25;
-S(idx).stoplossMax = -35;
+S(idx).stoploss = -35;
+S(idx).stoplossMax = -40;
 
 idx = idx + 1;
 S(idx).name = 'Tryg';
