@@ -41,6 +41,32 @@ elseif strcmp( S.symbol, 'WDH.CO' )
     day.high(idx)=day.high(idx)/scaler;
     day.low(idx)=day.low(idx)/scaler;
     day.close(idx)=day.close(idx)/scaler;
+elseif strcmp( S.symbol, 'UA' )
+
+    clear newDay
+    
+    cL = length(day.sdn);
+    nAdd = 500;
+    
+    newDay.sdn(nAdd+1:nAdd+cL,1) = day.sdn;
+    newDay.sdn(1:nAdd,1) = [day.sdn-nAdd+1:day.sdn(1)];
+    
+    newDay.open(nAdd+1:nAdd+cL,1) = day.open;
+    newDay.high(nAdd+1:nAdd+cL,1) = day.high;
+    newDay.low(nAdd+1:nAdd+cL,1) = day.low;
+    newDay.close(nAdd+1:nAdd+cL,1) = day.close;
+    newDay.volume(nAdd+1:nAdd+cL,1) = day.volume;
+    newDay.adj_close(nAdd+1:nAdd+cL,1) = day.adj_close;
+
+    newDay.open(1:nAdd,1) = day.open(1);
+    newDay.high(1:nAdd,1) = day.high(1);
+    newDay.low(1:nAdd,1) = day.low(1);
+    newDay.close(1:nAdd,1) = day.close(1);
+    newDay.volume(1:nAdd,1) = day.volume(1);
+    newDay.adj_close(1:nAdd,1) = day.adj_close(1);
+    
+    day = newDay;   
+    
 end
 
 stockHist.ticker = S.symbol;

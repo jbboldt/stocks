@@ -12,7 +12,6 @@ mkdir( targetDir );
 
 diary( 'log.txt' )
 
-%copyfile( '*.m', '\\LENOVO\Users\Jesper Boldt\Documents\matlab\projects\stocks' );
 %generateStockDataTest
 generateStockData
 
