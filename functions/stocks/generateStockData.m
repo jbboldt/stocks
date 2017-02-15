@@ -109,6 +109,10 @@ S(idx).stoplossMax = -5;
 idx = idx+1;
 S(idx).name = 'CalAmp';
 S(idx).symbol = 'CAMP';
+S(idx).bought = '2017-01-27';
+S(idx).price = 15.12;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Carlsberg';
@@ -173,6 +177,11 @@ S(idx).symbol = 'E2V.L';
 idx = idx+1;
 S(idx).name = 'Etsy';
 S(idx).symbol = 'ETSY';
+S(idx).bought = '2017-01-11';
+S(idx).price = 12.7199;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
+
 
 idx = idx + 1;
 S(idx).name = 'ExpreS2ion Biotech Holding AB';
@@ -198,9 +207,9 @@ S(idx).price = 61.32;
 S(idx).stoploss = -50;
 S(idx).stoplossMax = -60;
 
-idx = idx + 1;
-S(idx).name = 'FLSmidth';
-S(idx).symbol = 'FLS.CO';
+% idx = idx + 1;
+% S(idx).name = 'FLSmidth';
+% S(idx).symbol = 'FLS.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Gamesa';
@@ -277,6 +286,10 @@ S(idx).stoplossMax = -40;
 idx = idx + 1;
 S(idx).name = 'Impinj';
 S(idx).symbol = 'PI';
+S(idx).bought = '2017-01-11';
+S(idx).price = 35.3;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Intel';
@@ -289,6 +302,10 @@ S(idx).symbol = 'ILMN';
 idx = idx + 1;
 S(idx).name = 'Infineon Technologies AG';
 S(idx).symbol = 'IFX.DE';
+S(idx).bought = '2017-01-27';
+S(idx).price = 17.0650;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Intricon';
@@ -381,10 +398,6 @@ S(idx).stoplossMax = -30;
 idx = idx + 1;
 S(idx).name = 'Midsona AB';
 S(idx).symbol = 'MSON-B.ST';
-S(idx).bought = '2016-02-08';
-S(idx).price = 30.10;
-S(idx).stoploss = -50;
-S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Ming Yang Wind Power Group';
@@ -418,9 +431,9 @@ S(idx).price = 80.50;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -20;
 
-idx = idx + 1;
-S(idx).name = 'Nordnet';
-S(idx).symbol = 'NN-B.ST';
+% idx = idx + 1;
+% S(idx).name = 'Nordnet';
+% S(idx).symbol = 'NN-B.ST';
 
 idx = idx + 1;
 S(idx).name = 'Novo Nordisk';
@@ -443,16 +456,12 @@ S(idx).stoploss = 200;
 S(idx).stoplossMax = -15;
 
 idx = idx + 1;
-S(idx).name = 'NXP Semiconductors';
-S(idx).symbol = 'NXPI';
-S(idx).bought = '2014-05-21';
-S(idx).price = 90.35;
-S(idx).stoploss = -20;
-S(idx).stoplossMax = -40;
-
-idx = idx + 1;
 S(idx).name = 'ON Semiconductor';
 S(idx).symbol = 'ON';
+S(idx).bought = '2017-01-11';
+S(idx).price = 13.6;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
@@ -468,6 +477,10 @@ S(idx).symbol = 'ON';
 idx = idx + 1;
 S(idx).name = 'Qualcomm';
 S(idx).symbol = 'QCOM';
+S(idx).bought = '2017-01-17';
+S(idx).price = 66.82;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 % idx = idx+1;
 % S(idx).name = 'Parmalat';
@@ -492,6 +505,10 @@ S(idx).stoplossMax = -25;
 idx = idx+1;
 S(idx).name = 'ResMed';
 S(idx).symbol = 'RMD';
+S(idx).bought = '2017-01-11';
+S(idx).price = 63.99;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'RTX';
@@ -513,9 +530,9 @@ S(idx).price = 243.10;
 S(idx).stoploss = 0;
 S(idx).stoplossMax = -10;
 
-idx=idx+1;
-S(idx).name = 'Saeta Yield SA';
-S(idx).symbol = 'SAY.MC';
+% idx=idx+1;
+% S(idx).name = 'Saeta Yield SA';
+% S(idx).symbol = 'SAY.MC';
 
 % idx = idx + 1;
 % S(idx).name = 'SAS';
@@ -601,13 +618,17 @@ S(idx).price = 65.56;
 S(idx).stoploss = -35;
 S(idx).stoplossMax = -40;
 
-idx = idx + 1;
-S(idx).name = 'Tryg';
-S(idx).symbol = 'TRYG.CO';
+% idx = idx + 1;
+% S(idx).name = 'Tryg';
+% S(idx).symbol = 'TRYG.CO';
 
 idx = idx+1;
 S(idx).name = 'Ubiquiti Networks';
 S(idx).symbol = 'UBNT';
+S(idx).bought = '2017-01-17';
+S(idx).price = 58.3;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Under Armor';
@@ -628,6 +649,10 @@ S(idx).stoplossMax = -50;
 idx = idx+1;
 S(idx).name = 'Veeva Systems';
 S(idx).symbol = 'VEEV';
+S(idx).bought = '2017-01-11';
+S(idx).price = 44.07;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 idx=idx+1;
 S(idx).name = 'Veloxis Pharmacy';
@@ -644,14 +669,6 @@ S(idx).symbol = 'VWS.CO';
 % idx = idx + 1;
 % S(idx).name = 'Westport Innovations';
 % S(idx).symbol = 'WPRT';
-
-idx = idx + 1;
-S(idx).name = 'WhiteWave Foods';
-S(idx).symbol = 'WWAV';
-S(idx).bought = '2015-04-07';
-S(idx).price = 45.37;
-S(idx).stoploss = 15;
-S(idx).stoplossMax = -10;
 
 idx = idx + 1;
 S(idx).name = 'William Demant Holding';
@@ -672,6 +689,10 @@ S(idx).symbol = 'WFM';
 idx = idx + 1;
 S(idx).name = 'Zealand Pharma';
 S(idx).symbol = 'ZEAL.CO';
+S(idx).bought = '2017-01-04';
+S(idx).price = 112;
+S(idx).stoploss = -10;
+S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
