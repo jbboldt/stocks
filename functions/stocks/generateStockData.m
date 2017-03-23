@@ -166,9 +166,9 @@ S(idx).price = 4.1;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -15;
 
-idx = idx+1;
-S(idx).name = 'Dong Energy';
-S(idx).symbol = 'DENERG.CO';
+% idx = idx+1;
+% S(idx).name = 'Dong Energy';
+% S(idx).symbol = 'DENERG.CO';
 
 idx = idx + 1;
 S(idx).name = 'e2v Technologies plc';
@@ -326,10 +326,6 @@ S(idx).stoplossMax = -50;
 idx = idx + 1;
 S(idx).name = 'InvenSense';
 S(idx).symbol = 'INVN';
-S(idx).bought = '2016-09-21';
-S(idx).price = 7.7599;
-S(idx).stoploss = 50;
-S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
