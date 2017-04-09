@@ -53,14 +53,10 @@ S(idx).symbol = 'BIDU';
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
 S(idx).symbol = 'BAKKA.OL';
-S(idx).bought = '2016-09-21';
-S(idx).price = 311;
-S(idx).stoploss = 0;
-S(idx).stoplossMax = -10;
 
-% idx = idx + 1;
-% S(idx).name = 'Bang og Olufsen';
-% S(idx).symbol = 'BO.CO';
+idx = idx + 1;
+S(idx).name = 'Bang og Olufsen';
+S(idx).symbol = 'BO.CO';
 
 % idx = idx+1;
 % S(idx).name = 'Barrick Gold Corporation';
@@ -318,10 +314,6 @@ S(idx).stoplossMax = -5;
 idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
-S(idx).bought = '2016-02-18';
-S(idx).price = 30.35;
-S(idx).stoploss = -25;
-S(idx).stoplossMax = -50;
 
 idx = idx + 1;
 S(idx).name = 'InvenSense';
@@ -346,10 +338,6 @@ S(idx).stoplossMax = -50;
 idx = idx + 1;
 S(idx).name = 'Knowles';
 S(idx).symbol = 'KN';
-S(idx).bought = '2016-02-26';
-S(idx).price = 11.499;
-S(idx).stoploss = 40;
-S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Københavns Lufthavne';
@@ -446,10 +434,6 @@ S(idx).symbol = 'NZYM-B.CO';
 idx = idx + 1;
 S(idx).name = 'NVIDIA';
 S(idx).symbol = 'NVDA';
-S(idx).bought = '2016-02-17';
-S(idx).price = 30.19;
-S(idx).stoploss = 200;
-S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'ON Semiconductor';
@@ -521,10 +505,6 @@ S(idx).stoplossMax = -10;
 idx=idx+1;
 S(idx).name = 'Salmar';
 S(idx).symbol = 'SALM.OL';
-S(idx).bought = '2016-09-21';
-S(idx).price = 243.10;
-S(idx).stoploss = 0;
-S(idx).stoplossMax = -10;
 
 % idx=idx+1;
 % S(idx).name = 'Saeta Yield SA';
@@ -534,17 +514,13 @@ S(idx).stoplossMax = -10;
 % S(idx).name = 'SAS';
 % S(idx).symbol = 'SAS-DKK.CO';
 
-idx = idx + 1;
-S(idx).name = 'Schouw';
-S(idx).symbol = 'SCHO.CO';
+% idx = idx + 1;
+% S(idx).name = 'Schouw';
+% S(idx).symbol = 'SCHO.CO';
 
 idx = idx + 1;
 S(idx).name = 'Seattle Genetics';
 S(idx).symbol = 'SGEN';
-S(idx).bought = '2015-04-14';
-S(idx).price = 37.8;
-S(idx).stoploss = 30;
-S(idx).stoplossMax = -30;
 
 idx = idx + 1;
 S(idx).name = 'Skyworks Solutions';
