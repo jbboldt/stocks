@@ -7,7 +7,7 @@ function res = download_hist_yahoo_data(stock_symbol, startDate, endDate)
 [sYear, sMonth, sDay, tmp, tmp] = datevec(startDate);
 [eYear, eMonth, eDay, tmp, tmp] = datevec(endDate);
 
-url_string = sprintf('http://ichart.finance.yahoo.com/table.csv?s=%s&a=%i&b=%i&c=%i&d=%i&e=%i&f=%i',...
+url_string = sprintf('https://ichart.finance.yahoo.com/table.csv?s=%s&a=%i&b=%i&c=%i&d=%i&e=%i&f=%i',...
     upper(stock_symbol), sMonth-1, sDay, sYear, eMonth-1,eDay, eYear);
 
 
