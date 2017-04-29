@@ -162,6 +162,10 @@ S(idx).price = 4.1;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -15;
 
+idx = idx + 1;
+S(idx).name = 'Deutche Bansk';
+S(idx).symbol = 'DBK.DE';
+
 % idx = idx+1;
 % S(idx).name = 'Dong Energy';
 % S(idx).symbol = 'DENERG.CO';
@@ -641,6 +645,10 @@ S(idx).symbol = 'VWS.CO';
 % idx = idx + 1;
 % S(idx).name = 'Westport Innovations';
 % S(idx).symbol = 'WPRT';
+
+idx = idx + 1;
+S(idx).name = 'Volkswagen DE';
+S(idx).symbol = 'VOW.DE';
 
 idx = idx + 1;
 S(idx).name = 'William Demant Holding';
