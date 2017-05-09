@@ -183,9 +183,9 @@ S(idx).stoploss = -10;
 S(idx).stoplossMax = -15;
 
 
-idx = idx + 1;
-S(idx).name = 'ExpreS2ion Biotech Holding AB';
-S(idx).symbol = 'EXPRS2.ST';
+% idx = idx + 1;
+% S(idx).name = 'ExpreS2ion Biotech Holding AB';
+% S(idx).symbol = 'EXPRS2.ST';
 
 idx = idx + 1;
 S(idx).name = 'Facebook';
