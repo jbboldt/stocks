@@ -1,17 +1,31 @@
 function So = getStockHistory(conn,Si,S,startDate,endDate)
 
-%day = download_hist_yahoo_data( stockSymbol, startDate, endDate );
-  
-d = fetch(conn,S.symbol,{'open','high','low','close','volume','adj close'},startDate,endDate);
-d = flipud(d);
+if 0 
+    %day = download_hist_yahoo_data( stockSymbol, startDate, endDate );
+    
+    d = fetch(conn,S.symbol,{'open','high','low','close','volume','adj close'},startDate,endDate);
+    d = flipud(d);
+    
+    day.sdn = d(:,1);
+    day.open = d(:,2);
+    day.high = d(:,3);
+    day.low = d(:,4);
+    day.close = d(:,5);
+    day.volume = d(:,6);
+    day.adj_close = d(:,7);
+else
+    c = GetHistoricGoogle(S.symbol,'04/27/2014',datestr(today,'mm/dd/yyyy'));
 
-day.sdn = d(:,1);
-day.open = d(:,2);
-day.high = d(:,3);
-day.low = d(:,4);
-day.close = d(:,5);
-day.volume = d(:,6);
-day.adj_close = d(:,7);
+    day.sdn = flipud(datenum(c{1}));
+    day.open = flipud(c{2});
+    day.high = flipud(c{3});
+    day.low = flipud(c{4});
+    day.close = flipud(c{5});
+    day.volume = flipud(c{6});
+    day.adj_close = flipud(c{5});
+
+end
+    
 
 if strcmp( S.symbol, 'NVO' )
   idx = day.sdn <= 735607;

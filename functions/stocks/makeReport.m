@@ -12,24 +12,26 @@ mkdir( targetDir );
 
 diary( 'log.txt' )
 
-%generateStockDataTest
-generateStockData
+generateStockDataUS
+%generateStockData
 
 idxW1 = 1;
 idxW2 = 1;
 idxT = 1;
 idxO = 1;
 
-isCon = false;
-while isCon == false
-  try
-    conn = yahoo;
-    isCon = true;
-  catch
-    isCon = false;
-    warning('Could not connect');
-  end
-end
+% isCon = false;
+% while isCon == false
+%   try
+%     conn = yahoo;
+%     isCon = true;
+%   catch
+%     isCon = false;
+%     warning('Could not connect');
+%   end
+% end
+
+conn = 0;
 
 stockHist = [];
 for cS = 1 : length( S )
@@ -275,5 +277,5 @@ end
 close all
 fclose all
 
-close(conn)
+%close(conn)
 diary off
