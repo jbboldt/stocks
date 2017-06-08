@@ -179,13 +179,13 @@ S(idx).name = 'Illumina';
 S(idx).symbol = 'ILMN';
 
 
-idx = idx + 1;
-S(idx).name = 'Intricon';
-S(idx).symbol = 'IIN';
-S(idx).bought = '2016-09-21';
-S(idx).price = 5.4999;
-S(idx).stoploss = 20;
-S(idx).stoplossMax = -5;
+% idx = idx + 1;
+% S(idx).name = 'Intricon';
+% S(idx).symbol = 'IIN';
+% S(idx).bought = '2016-09-21';
+% S(idx).price = 5.4999;
+% S(idx).stoploss = 20;
+% S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'Intrexon Corp';

@@ -14,7 +14,7 @@ if 0
     day.volume = d(:,6);
     day.adj_close = d(:,7);
 else
-    c = GetHistoricGoogle(S.symbol,'04/27/2014',datestr(today,'mm/dd/yyyy'));
+    c = GetHistoricGoogle(S.symbol,'01/01/2014',datestr(today,'mm/dd/yyyy'));
 
     day.sdn = flipud(datenum(c{1}));
     day.open = flipud(c{2});
