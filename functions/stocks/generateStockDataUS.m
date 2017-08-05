@@ -364,6 +364,10 @@ S(idx).symbol = 'TSM';
 % S(idx).stoplossMax = -50;
 
 idx = idx + 1;
+S(idx).name = 'Terravia Holding';
+S(idx).symbol = 'TVIA';
+
+idx = idx + 1;
 S(idx).name = 'The Tile Shop';
 S(idx).symbol = 'TTS';
 S(idx).bought = '2015-04-07';

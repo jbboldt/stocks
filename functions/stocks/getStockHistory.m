@@ -13,7 +13,7 @@ if 0
     day.close = d(:,5);
     day.volume = d(:,6);
     day.adj_close = d(:,7);
-else
+elseif 0
     c = GetHistoricGoogle(S.symbol,'01/01/2014',datestr(today,'mm/dd/yyyy'));
 
     day.sdn = flipud(datenum(c{1}));
@@ -23,7 +23,17 @@ else
     day.close = flipud(c{5});
     day.volume = flipud(c{6});
     day.adj_close = flipud(c{5});
+else
+    c = getEOD(S.symbol);
 
+    day.sdn = datenum(c{1});
+    day.open = c{2};
+    day.high = c{3};
+    day.low = c{4};
+    day.close = c{5};
+    day.volume = c{7};
+    day.adj_close = c{6};
+        
 end
     
 

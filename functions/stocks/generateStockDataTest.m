@@ -1,11 +1,15 @@
 clear S
 idx = 1;
-S(idx).name = 'ALK Abello';
-S(idx).symbol = 'ALK-B.CO';
-S(idx).bought = '2015-01-06';
-S(idx).price = 673;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -5;
+S(idx).name = 'Alphabet';
+S(idx).symbol = 'GOOGL';
+
+idx = idx+1;
+S(idx).name = 'Analogic Corporation';
+S(idx).symbol = 'ALOG';
+S(idx).bought = '2015-05-18';
+S(idx).price = 80.90;
+S(idx).stoploss = 0;
+S(idx).stoplossMax = -15;
 
 return
 

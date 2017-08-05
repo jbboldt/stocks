@@ -12,8 +12,8 @@ mkdir( targetDir );
 
 diary( 'log.txt' )
 
-generateStockDataUS
-%generateStockData
+generateStockData
+%generateStockDataTest
 
 idxW1 = 1;
 idxW2 = 1;
