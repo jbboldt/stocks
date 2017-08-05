@@ -171,6 +171,14 @@ S(idx).stoplossMax = -15;
 % S(idx).symbol = 'E2V.L';
 
 idx = idx+1;
+S(idx).name = 'Daimler';
+S(idx).symbol = 'DAI.XETRA';
+
+idx = idx+1;
+S(idx).name = 'Electronic Arts';
+S(idx).symbol = 'EA';
+
+idx = idx+1;
 S(idx).name = 'Etsy';
 S(idx).symbol = 'ETSY';
 S(idx).bought = '2017-01-11';
@@ -234,6 +242,10 @@ S(idx).stoplossMax = -10;
 % idx = idx + 1;
 % S(idx).name = 'Gilead Sciences Inc.';
 % S(idx).symbol = 'GILD';
+
+idx = idx+1;
+S(idx).name = 'GomSpace';
+S(idx).symbol = 'GOMX.ST';
 
 % idx = idx + 1;
 % S(idx).name = 'Google';
@@ -311,6 +323,14 @@ idx = idx + 1;
 S(idx).name = 'Intrexon Corp';
 S(idx).symbol = 'XON';
 
+idx = idx+1;
+S(idx).name = 'Intuitive Surgical';
+S(idx).symbol = 'ISRG';
+
+idx = idx+1;
+S(idx).name = 'iRobot';
+S(idx).symbol = 'IRBT';
+
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
 S(idx).symbol = 'JYSK.CO';
@@ -355,6 +375,11 @@ S(idx).symbol = 'LUN.CO';
 % S(idx).name = 'Marine Harvest';
 % S(idx).symbol = 'MHG.OL';
 
+
+idx = idx+1;
+S(idx).name = 'Mastercard';
+S(idx).symbol = 'MA';
+
 idx = idx + 1;
 S(idx).name = 'Mellanox';
 S(idx).symbol = 'MLNX';
@@ -371,9 +396,9 @@ S(idx).stoplossMax = -30;
 % S(idx).name = 'Microsoft';
 % S(idx).symbol = 'MSFT';
 
-idx = idx + 1;
-S(idx).name = 'Midsona AB';
-S(idx).symbol = 'MSON-B.ST';
+% idx = idx + 1;
+% S(idx).name = 'Midsona AB';
+% S(idx).symbol = 'MSON-B.ST';
 
 % idx = idx + 1;
 % S(idx).name = 'Ming Yang Wind Power Group';
@@ -449,6 +474,10 @@ S(idx).stoplossMax = -15;
 % idx = idx+1;
 % S(idx).name = 'Parmalat';
 % S(idx).symbol = 'PLT.MI';
+
+idx = idx+1;
+S(idx).name = 'PayPal';
+S(idx).symbol = 'PYPL';
 
 idx = idx+1;
 S(idx).name = 'Photocure';
@@ -530,9 +559,17 @@ S(idx).stoplossMax = -10;
 % S(idx).name = 'Southwest Airlines Co.';
 % S(idx).symbol = 'LUV';
 
+idx = idx+1;
+S(idx).name = 'Splunk';
+S(idx).symbol = 'SPLK';
+
 idx = idx + 1;
 S(idx).name = 'Taiwan Semiconductor';
 S(idx).symbol = 'TSM';
+
+idx = idx+1;
+S(idx).name = 'Take-Two Interactive';
+S(idx).symbol = 'TTWO';
 
 % idx = idx + 1;
 % S(idx).name = 'TDC';
