@@ -36,6 +36,19 @@ else
         
 end
     
+if length(day.sdn) < 500
+    ext = 500;
+    tE = [ day.sdn(1) - ext : day.sdn(1)-1 ].';
+    day.sdn = [tE;day.sdn];
+    day.open = [ones(ext,1) * day.open(1);day.open];
+    day.high = [ones(ext,1) * day.high(1);day.high];
+    day.low = [ones(ext,1) * day.low(1);day.low];
+    day.close = [ones(ext,1) * day.close(1);day.close];
+    day.volume = [ones(ext,1) * day.volume(1);day.volume];
+    day.adj_close = [ones(ext,1) * day.adj_close(1);day.adj_close];
+end
+    
+    
 
 if strcmp( S.symbol, 'NVO' )
   idx = day.sdn <= 735607;
