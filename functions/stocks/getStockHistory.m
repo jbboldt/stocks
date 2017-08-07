@@ -34,6 +34,19 @@ else
     day.volume = c{7};
     day.adj_close = c{6};
         
+    idx = find(isnan(day.close))
+
+    if length(idx)>0
+        for n = length(idx):-1:1
+            day.sdn(idx(n)) = [];
+            day.open(idx(n)) = [];
+            day.high(idx(n)) = [];
+            day.low(idx(n)) = [];
+            day.close(idx(n)) = [];
+            day.volume(idx(n)) = [];
+            day.adj_close(idx(n)) = [];
+        end
+    end
 end
     
 if length(day.sdn) < 500
