@@ -195,6 +195,10 @@ idx = idx + 1;
 S(idx).name = 'Facebook';
 S(idx).symbol = 'FB';
 
+idx = idx + 1;
+S(idx).name = 'FingerPrint Cards';
+S(idx).symbol = 'FING-B.ST';
+
 idx = idx+1;
 S(idx).name = 'FireEye';
 S(idx).symbol = 'FEYE';
