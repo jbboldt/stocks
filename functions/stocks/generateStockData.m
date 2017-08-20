@@ -175,6 +175,10 @@ S(idx).name = 'Daimler';
 S(idx).symbol = 'DAI.XETRA';
 
 idx = idx+1;
+S(idx).name = 'Editas Medicine';
+S(idx).symbol = 'EDIT.US';
+
+idx = idx+1;
 S(idx).name = 'Electronic Arts';
 S(idx).symbol = 'EA';
 
@@ -383,6 +387,10 @@ S(idx).symbol = 'LUN.CO';
 idx = idx+1;
 S(idx).name = 'Mastercard';
 S(idx).symbol = 'MA';
+
+idx = idx+1;
+S(idx).name = 'Matas';
+S(idx).symbol = 'MATAS.CO';
 
 idx = idx + 1;
 S(idx).name = 'Mellanox';
