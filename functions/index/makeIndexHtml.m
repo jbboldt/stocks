@@ -10,7 +10,7 @@ fprintf( fH, '\n');
 fprintf( fH, '<h1>%s</h1>', datestr( now ) );
 
 for nI = 1:length(I)
-  I(nI).data = I(nI).close;
+  I(nI).data = I(nI).day.close;
 end
 makeInvestTable(fH,I);
 

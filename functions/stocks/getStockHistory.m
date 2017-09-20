@@ -34,7 +34,7 @@ else
     day.volume = c{7};
     day.adj_close = c{6};
         
-    idx = find(isnan(day.close))
+    idx = find(isnan(day.close));
 
     if length(idx)>0
         for n = length(idx):-1:1
@@ -47,6 +47,9 @@ else
             day.adj_close(idx(n)) = [];
         end
     end
+    
+    stockHist.shortName = S.symbol;
+    
 end
     
 if length(day.sdn) < 500
@@ -122,10 +125,12 @@ end
 stockHist.ticker = S.symbol;
 stockHist.name = S.name;
 
-stockHist.bought = S.bought;
-stockHist.price = S.price;
-stockHist.stoploss = S.stoploss;
-stockHist.stoplossMax = S.stoplossMax;
+if exist( 'S.bought' )
+    stockHist.bought = S.bought;
+    stockHist.price = S.price;
+    stockHist.stoploss = S.stoploss;
+    stockHist.stoplossMax = S.stoplossMax;
+end
 
 %day.close = day.adj_close;
 day.count = length( day.close );

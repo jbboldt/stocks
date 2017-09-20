@@ -2,7 +2,7 @@ beep off
 addpath(genpath('functions'))
 [s,m,mi] = rmdir('reports');
 makeReport
-% makeIndexReport
+makeIndexReport
 % makeCurrencyReport
 % makeCommodityReport
 % makeInterestReport

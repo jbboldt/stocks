@@ -1,7 +1,20 @@
 clear S
 idx = 1;
-S(idx).name = 'Alphabet';
-S(idx).symbol = 'GOOGL';
+S(idx).name = 'Bavarian Nordic';
+S(idx).symbol = 'BAVA.CO';
+S(idx).bought = '2016-09-08';
+S(idx).price = 248.50;
+S(idx).stoploss = 0;
+S(idx).stoplossMax = -5;
+
+idx = idx + 1;
+S(idx).name = 'FingerPrint Cards';
+S(idx).symbol = 'FING-B.ST';
+
+
+return
+
+
 
 idx = idx+1;
 S(idx).name = 'Analogic Corporation';
