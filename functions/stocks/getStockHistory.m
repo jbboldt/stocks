@@ -125,7 +125,7 @@ end
 stockHist.ticker = S.symbol;
 stockHist.name = S.name;
 
-if exist( 'S.bought' )
+if isfield(S,'bought')
     stockHist.bought = S.bought;
     stockHist.price = S.price;
     stockHist.stoploss = S.stoploss;
