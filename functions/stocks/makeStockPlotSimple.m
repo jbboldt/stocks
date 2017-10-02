@@ -16,7 +16,9 @@ candle(S.day.high(cIdx),S.day.low(cIdx),S.day.close(cIdx),S.day.open(cIdx),...
   'k')
 C = get(gca,'children');
 set(C(2),'lineWidth',2)
-set(C(3),'lineWidth',2)
+if length(C)>2
+    set(C(3),'lineWidth',2)
+end
 
 xlim([0 nDay+1])
 set(gca,'YAxisLocation','right')
