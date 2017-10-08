@@ -535,9 +535,9 @@ idx=idx+1;
 S(idx).name = 'Salmar';
 S(idx).symbol = 'SALM.OL';
 
-% idx=idx+1;
-% S(idx).name = 'Saniona';
-% S(idx).symbol = 'SANION.ST';
+idx=idx+1;
+S(idx).name = 'Saniona';
+S(idx).symbol = 'SANION.ST';
 
 % idx=idx+1;
 % S(idx).name = 'Saeta Yield SA';
