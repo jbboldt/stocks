@@ -308,6 +308,10 @@ S(idx).stoplossMax = -15;
 % S(idx).symbol = 'INTC';
 
 idx = idx + 1;
+S(idx).name = 'Invisio Communications';
+S(idx).symbol = 'IVSO.ST';
+
+idx = idx + 1;
 S(idx).name = 'Illumina';
 S(idx).symbol = 'ILMN';
 
