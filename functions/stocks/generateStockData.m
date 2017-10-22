@@ -22,6 +22,7 @@ S(idx).stoplossMax = -15;
 % S(idx).name = 'Ajinomoto';
 % S(idx).symbol = 'AJINY';
 
+
 idx = idx + 1;
 S(idx).name = 'Ambarella';
 S(idx).symbol = 'AMBA';
@@ -602,6 +603,12 @@ S(idx).symbol = 'TVIA';
 % S(idx).price = 2.8299;
 % S(idx).stoploss = -50;
 % S(idx).stoplossMax = -50;
+
+idx = idx+1;
+S(idx).name = 'TEVA';
+S(idx).symbol = 'TEVA';
+
+
 
 idx = idx + 1;
 S(idx).name = 'The Tile Shop';
