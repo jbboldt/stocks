@@ -6,9 +6,14 @@ idx = 1;
 % S(idx).stoploss = -5;
 % S(idx).stoplossMax = -30;
 
+
 idx = 1;
 S(idx).name = 'Alphabet';
 S(idx).symbol = 'GOOGL';
+
+idx = idx+1;
+S(idx).name = 'Acarix';
+S(idx).symbol = 'ACARIX.ST';
 
 idx = idx+1;
 S(idx).name = 'Analogic Corporation';
@@ -344,6 +349,10 @@ idx = idx+1;
 S(idx).name = 'iRobot';
 S(idx).symbol = 'IRBT';
 
+idx = idx+1;
+S(idx).name = 'iRobot';
+S(idx).symbol = 'IVISYS.ST';
+
 idx = idx + 1;
 S(idx).name = 'Jyske Bank';
 S(idx).symbol = 'JYSK.CO';
@@ -396,6 +405,10 @@ S(idx).symbol = 'MA';
 idx = idx+1;
 S(idx).name = 'Matas';
 S(idx).symbol = 'MATAS.CO';
+
+idx = idx+1;
+S(idx).name = 'Medical Prognosis Institute A/S';
+S(idx).symbol = 'MPI.ST';
 
 idx = idx + 1;
 S(idx).name = 'Mellanox';
@@ -466,6 +479,10 @@ S(idx).symbol = 'NZYM-B.CO';
 % S(idx).stoplossMax = -25;
 
 idx = idx + 1;
+S(idx).name = 'Nuevolution';
+S(idx).symbol = 'NUE.ST';
+
+idx = idx + 1;
 S(idx).name = 'NVIDIA';
 S(idx).symbol = 'NVDA';
 
@@ -495,6 +512,10 @@ S(idx).stoplossMax = -15;
 idx = idx+1;
 S(idx).name = 'PayPal';
 S(idx).symbol = 'PYPL';
+
+idx = idx+1;
+S(idx).name = 'PhotoCat';
+S(idx).symbol = 'PCAT.ST';
 
 idx = idx+1;
 S(idx).name = 'Photocure';
