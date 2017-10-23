@@ -407,7 +407,7 @@ S(idx).name = 'Matas';
 S(idx).symbol = 'MATAS.CO';
 
 idx = idx+1;
-S(idx).name = 'Medical Prognosis Institute A/S';
+S(idx).name = 'Medical Prognosis Institute';
 S(idx).symbol = 'MPI.ST';
 
 idx = idx + 1;
