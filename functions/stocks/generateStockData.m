@@ -19,8 +19,8 @@ S(idx).name = 'Analogic Corporation';
 S(idx).symbol = 'ALOG';
 S(idx).bought = '2015-05-18';
 S(idx).price = 80.90;
-S(idx).stoploss = 0;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = -5;
+S(idx).stoplossMax = -50;
 
 % idx = idx+1;
 % S(idx).name = 'Ajinomoto';
@@ -57,7 +57,7 @@ S(idx).symbol = 'BIDU';
 S(idx).bought = '2017-10-03';
 S(idx).price = 247.64;
 S(idx).stoploss = -15;
-S(idx).stoplossMax = -5;
+S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Bakkafrost';
@@ -77,7 +77,7 @@ S(idx).symbol = 'BAVA.CO';
 S(idx).bought = '2016-09-08';
 S(idx).price = 248.50;
 S(idx).stoploss = 0;
-S(idx).stoplossMax = -5;
+S(idx).stoplossMax = -50;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -124,8 +124,8 @@ S(idx).name = 'Celgene';
 S(idx).symbol = 'CELG';
 S(idx).bought = '2016-02-10';
 S(idx).price = 104.7;
-S(idx).stoploss = 5;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = -5;
+S(idx).stoplossMax = -40;
 
 idx = idx + 1;
 S(idx).name = 'Chr. Hansen';
@@ -164,8 +164,8 @@ S(idx).name = 'Codexis';
 S(idx).symbol = 'CDXS';
 S(idx).bought = '2016-02-17';
 S(idx).price = 4.1;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = 50;
+S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Deutche Bansk';
@@ -189,7 +189,7 @@ S(idx).symbol = 'EDIT.US';
 S(idx).bought = '2017-08-30';
 S(idx).price = 21.29;
 S(idx).stoploss = -15;
-S(idx).stoplossMax = -5;
+S(idx).stoplossMax = -15;
 
 idx = idx+1;
 S(idx).name = 'Electronic Arts';
@@ -258,7 +258,7 @@ S(idx).symbol = 'GEN.CO';
 S(idx).bought = '2014-06-06';
 S(idx).price = 234;
 S(idx).stoploss = 400;
-S(idx).stoplossMax = -10;
+S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Gilead Sciences Inc.';
@@ -269,8 +269,8 @@ S(idx).name = 'GomSpace';
 S(idx).symbol = 'GOMX.ST';
 S(idx).bought = '2017-08-07';
 S(idx).price = 65;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -5;
+S(idx).stoploss = 40;
+S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Google';
@@ -317,8 +317,8 @@ S(idx).name = 'Impinj';
 S(idx).symbol = 'PI';
 S(idx).bought = '2017-01-11';
 S(idx).price = 35.3;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = -30;
+S(idx).stoplossMax = -60;
 
 % idx = idx + 1;
 % S(idx).name = 'Intel';
@@ -423,8 +423,8 @@ S(idx).symbol = 'MATAS.CO';
 idx = idx+1;
 S(idx).name = 'Medical Prognosis Institute';
 S(idx).symbol = 'MPI.ST';
-S(idx).bought = '2017-10-03';
-S(idx).price = 247.64;
+S(idx).bought = '2017-11-08';
+S(idx).price = 13.25;
 S(idx).stoploss = -15;
 S(idx).stoplossMax = -5;
 
@@ -499,6 +499,10 @@ S(idx).stoplossMax = -5;
 idx = idx + 1;
 S(idx).name = 'Nuevolution';
 S(idx).symbol = 'NUE.ST';
+S(idx).bought = '2017-11-08';
+S(idx).price = 19.9;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'NVIDIA';
@@ -540,8 +544,8 @@ S(idx).name = 'Photocure';
 S(idx).symbol = 'PHO.OL';
 S(idx).bought = '2015-12-14';
 S(idx).price = 37;
-S(idx).stoploss = 10;
-S(idx).stoplossMax = -25;
+S(idx).stoploss = -100;
+S(idx).stoplossMax = -100;
 
 idx = idx+1;
 S(idx).name = 'Precise Biometrics';
@@ -656,8 +660,8 @@ S(idx).name = 'The Tile Shop';
 S(idx).symbol = 'TTS';
 S(idx).bought = '2015-04-07';
 S(idx).price = 12.5;
-S(idx).stoploss = 50;
-S(idx).stoplossMax = -10;
+S(idx).stoploss = -40;
+S(idx).stoplossMax = -100;
 
 % idx = idx + 1;
 % S(idx).name = 'Tesla Motors';
@@ -712,8 +716,8 @@ S(idx).name = 'Veloxis Pharmacy';
 S(idx).symbol = 'VELO.CO';
 S(idx).bought = '2014-06-17';
 S(idx).price = 1.87;
-S(idx).stoploss = -50;
-S(idx).stoplossMax = -50;
+S(idx).stoploss = -100;
+S(idx).stoplossMax = -100;
 
 idx=idx+1;
 S(idx).name = 'Vestas';
@@ -732,8 +736,8 @@ S(idx).name = 'William Demant Holding';
 S(idx).symbol = 'WDH.CO';
 S(idx).bought = '2015-12-29';
 S(idx).price = 125;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = -100;
+S(idx).stoplossMax = -100;
 
 % idx = idx + 1;
 % S(idx).name = 'Whole Foods Market';
@@ -748,8 +752,8 @@ S(idx).name = 'Zealand Pharma';
 S(idx).symbol = 'ZEAL.CO';
 S(idx).bought = '2017-01-04';
 S(idx).price = 112;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
+S(idx).stoploss = -20;
+S(idx).stoplossMax = -50;
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
