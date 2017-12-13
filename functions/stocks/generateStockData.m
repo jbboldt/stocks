@@ -332,13 +332,13 @@ idx = idx + 1;
 S(idx).name = 'Illumina';
 S(idx).symbol = 'ILMN';
 
-idx = idx + 1;
-S(idx).name = 'Infineon Technologies AG';
-S(idx).symbol = 'IFX.XETRA';
-S(idx).bought = '2017-01-27';
-S(idx).price = 17.0650;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
+% idx = idx + 1;
+% S(idx).name = 'Infineon Technologies AG';
+% S(idx).symbol = 'IFX.XETRA';
+% S(idx).bought = '2017-01-27';
+% S(idx).price = 17.0650;
+% S(idx).stoploss = -10;
+% S(idx).stoplossMax = -15;
 
 idx = idx + 1;
 S(idx).name = 'Intricon';
