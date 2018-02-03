@@ -74,10 +74,6 @@ S(idx).symbol = 'BO.CO';
 idx = idx + 1;
 S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
-S(idx).bought = '2016-09-08';
-S(idx).price = 248.50;
-S(idx).stoploss = 0;
-S(idx).stoplossMax = -50;
 
 % idx = idx + 1;
 % S(idx).name = 'Berkshire';
@@ -315,10 +311,6 @@ S(idx).stoplossMax = -20;
 idx = idx + 1;
 S(idx).name = 'Impinj';
 S(idx).symbol = 'PI';
-S(idx).bought = '2017-01-11';
-S(idx).price = 35.3;
-S(idx).stoploss = -30;
-S(idx).stoplossMax = -60;
 
 % idx = idx + 1;
 % S(idx).name = 'Intel';
@@ -332,13 +324,9 @@ idx = idx + 1;
 S(idx).name = 'Illumina';
 S(idx).symbol = 'ILMN';
 
-% idx = idx + 1;
-% S(idx).name = 'Infineon Technologies AG';
-% S(idx).symbol = 'IFX.XETRA';
-% S(idx).bought = '2017-01-27';
-% S(idx).price = 17.0650;
-% S(idx).stoploss = -10;
-% S(idx).stoplossMax = -15;
+idx = idx + 1;
+S(idx).name = 'Infineon Technologies AG';
+S(idx).symbol = 'IFX.XETRA';
 
 idx = idx + 1;
 S(idx).name = 'Intricon';
@@ -491,10 +479,6 @@ S(idx).symbol = 'NOVO-B.CO';
 idx = idx + 1;
 S(idx).name = 'Novozymes';
 S(idx).symbol = 'NZYM-B.CO';
-S(idx).bought = '2017-10-04';
-S(idx).price = 331.40;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'Nuevolution';
@@ -511,10 +495,6 @@ S(idx).symbol = 'NVDA';
 idx = idx + 1;
 S(idx).name = 'ON Semiconductor';
 S(idx).symbol = 'ON';
-S(idx).bought = '2017-01-11';
-S(idx).price = 13.6;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
@@ -550,10 +530,6 @@ S(idx).stoplossMax = -100;
 idx = idx+1;
 S(idx).name = 'Precise Biometrics';
 S(idx).symbol = 'PREC.ST';
-S(idx).bought = '2016-02-17';
-S(idx).price = 4.97;
-S(idx).stoploss = -99;
-S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Qualcomm';
@@ -570,10 +546,6 @@ S(idx).symbol = 'RMD';
 idx = idx + 1;
 S(idx).name = 'RTX';
 S(idx).symbol = 'RTX.CO';
-S(idx).bought = '2016-02-17';
-S(idx).price = 77;
-S(idx).stoploss = 75;
-S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'Roblon';
@@ -586,6 +558,10 @@ S(idx).symbol = 'SALM.OL';
 idx=idx+1;
 S(idx).name = 'Saniona';
 S(idx).symbol = 'SANION.ST';
+S(idx).bought = '2018-01-29';
+S(idx).price = 33.6;
+S(idx).stoploss = 15;
+S(idx).stoplossMax = -10;
 
 % idx=idx+1;
 % S(idx).name = 'Saeta Yield SA';
@@ -606,10 +582,6 @@ S(idx).symbol = 'SGEN';
 idx = idx + 1;
 S(idx).name = 'Skyworks Solutions';
 S(idx).symbol = 'SWKS';
-S(idx).bought = '2016-02-18';
-S(idx).price = 62.05;
-S(idx).stoploss = 15;
-S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'SolarCity';
@@ -750,10 +722,6 @@ S(idx).stoplossMax = -100;
 idx = idx + 1;
 S(idx).name = 'Zealand Pharma';
 S(idx).symbol = 'ZEAL.CO';
-S(idx).bought = '2017-01-04';
-S(idx).price = 112;
-S(idx).stoploss = -20;
-S(idx).stoplossMax = -50;
 
 % idx = idx + 1;
 % S(idx).name = 'Imagination Technology';
