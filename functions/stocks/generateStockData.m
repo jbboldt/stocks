@@ -6,9 +6,9 @@ idx = 1;
 % S(idx).stoploss = -5;
 % S(idx).stoplossMax = -30;
 
-idx = 1;
-S(idx).name = 'Alphabet';
-S(idx).symbol = 'GOOGL';
+% idx = 1;
+% S(idx).name = 'Alphabet';
+% S(idx).symbol = 'GOOGL';
 
 idx = idx+1;
 S(idx).name = 'Acarix';
@@ -39,9 +39,9 @@ S(idx).symbol = 'AMBA';
 % S(idx).name = 'Apple';
 % S(idx).symbol = 'AAPL';
 
-idx = idx + 1;
-S(idx).name = 'ASML Holding';
-S(idx).symbol = 'ASML.AS';
+% idx = idx + 1;
+% S(idx).name = 'ASML Holding';
+% S(idx).symbol = 'ASML.AS';
 
 % idx=idx+1;
 % S(idx).name = 'Austevoll';
@@ -59,13 +59,13 @@ S(idx).price = 247.64;
 S(idx).stoploss = -15;
 S(idx).stoplossMax = -15;
 
-idx = idx + 1;
-S(idx).name = 'Bakkafrost';
-S(idx).symbol = 'BAKKA.OL';
-
-idx = idx + 1;
-S(idx).name = 'Bang og Olufsen';
-S(idx).symbol = 'BO.CO';
+% idx = idx + 1;
+% S(idx).name = 'Bakkafrost';
+% S(idx).symbol = 'BAKKA.OL';
+% 
+% idx = idx + 1;
+% S(idx).name = 'Bang og Olufsen';
+% S(idx).symbol = 'BO.CO';
 
 % idx = idx+1;
 % S(idx).name = 'Barrick Gold Corporation';
@@ -123,9 +123,9 @@ S(idx).price = 104.7;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -40;
 
-idx = idx + 1;
-S(idx).name = 'Chr. Hansen';
-S(idx).symbol = 'CHR.CO';
+% idx = idx + 1;
+% S(idx).name = 'Chr. Hansen';
+% S(idx).symbol = 'CHR.CO';
 
 idx = idx + 1;
 S(idx).name = 'Cisco Systems';
@@ -142,10 +142,6 @@ S(idx).symbol = 'CSCO';
 idx = idx + 1;
 S(idx).name = 'Cognex';
 S(idx).symbol = 'CGNX';
-S(idx).bought = '2016-02-18';
-S(idx).price = 36.55;
-S(idx).stoploss = 60;
-S(idx).stoplossMax = -10;
 
 % idx = idx + 1;
 % S(idx).name = 'E.ON';
@@ -158,10 +154,6 @@ S(idx).stoplossMax = -10;
 idx=idx+1;
 S(idx).name = 'Codexis';
 S(idx).symbol = 'CDXS';
-S(idx).bought = '2016-02-17';
-S(idx).price = 4.1;
-S(idx).stoploss = 50;
-S(idx).stoplossMax = -20;
 
 % idx = idx + 1;
 % S(idx).name = 'Deutche Bansk';
@@ -356,9 +348,9 @@ idx = idx+1;
 S(idx).name = 'ivisys';
 S(idx).symbol = 'IVISYS.ST';
 
-idx = idx + 1;
-S(idx).name = 'Jyske Bank';
-S(idx).symbol = 'JYSK.CO';
+% idx = idx + 1;
+% S(idx).name = 'Jyske Bank';
+% S(idx).symbol = 'JYSK.CO';
 
 idx = idx + 1;
 S(idx).name = 'Kandi';
@@ -472,9 +464,9 @@ S(idx).symbol = 'NNIT.CO';
 % S(idx).name = 'Nordnet';
 % S(idx).symbol = 'NN-B.ST';
 
-idx = idx + 1;
-S(idx).name = 'Novo Nordisk';
-S(idx).symbol = 'NOVO-B.CO';
+% idx = idx + 1;
+% S(idx).name = 'Novo Nordisk';
+% S(idx).symbol = 'NOVO-B.CO';
 
 idx = idx + 1;
 S(idx).name = 'Novozymes';
@@ -510,6 +502,10 @@ S(idx).symbol = 'ON';
 % idx = idx+1;
 % S(idx).name = 'Parmalat';
 % S(idx).symbol = 'PLT.MI';
+
+idx = idx+1;
+S(idx).name = 'Patriot One';
+S(idx).symbol = 'PAT.V';
 
 idx = idx+1;
 S(idx).name = 'PayPal';
