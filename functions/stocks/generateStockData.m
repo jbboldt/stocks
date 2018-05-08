@@ -6,9 +6,9 @@ idx = 1;
 % S(idx).stoploss = -5;
 % S(idx).stoplossMax = -30;
 
-% idx = 1;
-% S(idx).name = 'Alphabet';
-% S(idx).symbol = 'GOOGL';
+idx = 1;
+S(idx).name = 'Alphabet';
+S(idx).symbol = 'GOOGL';
 
 idx = 1;
 S(idx).name = 'Acarix';
@@ -248,9 +248,9 @@ S(idx).price = 234;
 S(idx).stoploss = 400;
 S(idx).stoplossMax = -20;
 
-% idx = idx + 1;
-% S(idx).name = 'Gilead Sciences Inc.';
-% S(idx).symbol = 'GILD';
+idx = idx + 1;
+S(idx).name = 'Gilead Sciences Inc.';
+S(idx).symbol = 'GILD';
 
 idx = idx+1;
 S(idx).name = 'GomSpace';
