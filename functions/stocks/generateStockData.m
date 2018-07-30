@@ -167,6 +167,10 @@ idx = idx+1;
 S(idx).name = 'Daimler';
 S(idx).symbol = 'DAI.XETRA';
 
+idx = idx + 1;
+S(idx).name = 'DocuSign';
+S(idx).symbol = 'DOCU.US';
+
 idx = idx+1;
 S(idx).name = 'Editas Medicine';
 S(idx).symbol = 'EDIT.US';
@@ -428,6 +432,10 @@ S(idx).stoplossMax = -30;
 % S(idx).stoploss = -99;
 % S(idx).stoplossMax = -99;
 
+idx = idx + 1;
+S(idx).name = 'MongoDB';
+S(idx).symbol = 'MDB.US';
+
 % idx = idx + 1;
 % S(idx).name = 'NetApp Inc';
 % S(idx).symbol = 'NTAP';
@@ -598,6 +606,10 @@ S(idx).symbol = 'TTWO';
 % idx = idx + 1;
 % S(idx).name = 'TDC';
 % S(idx).symbol = 'TDC.CO';
+
+idx = idx + 1;
+S(idx).name = 'TelaDoc';
+S(idx).symbol = 'TDOC.US';
 
 idx = idx + 1;
 S(idx).name = 'TerraVia';
