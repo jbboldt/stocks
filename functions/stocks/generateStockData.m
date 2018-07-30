@@ -9,18 +9,22 @@ idx = 1;
 idx = 1;
 S(idx).name = 'Alphabet';
 S(idx).symbol = 'GOOGL';
+S(idx).bought = '2015-05-18';
+S(idx).price = 80.90;
+S(idx).stoploss = -5;
+S(idx).stoplossMax = -50;
 
 idx = 1;
 S(idx).name = 'Acarix';
 S(idx).symbol = 'ACARIX.ST';
 
-idx = idx+1;
-S(idx).name = 'Analogic Corporation';
-S(idx).symbol = 'ALOG';
-S(idx).bought = '2015-05-18';
-S(idx).price = 80.90;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -50;
+% idx = idx+1;
+% S(idx).name = 'Analogic Corporation';
+% S(idx).symbol = 'ALOG';
+% S(idx).bought = '2015-05-18';
+% S(idx).price = 80.90;
+% S(idx).stoploss = -5;
+% S(idx).stoplossMax = -50;
 
 % idx = idx+1;
 % S(idx).name = 'Ajinomoto';
@@ -54,10 +58,6 @@ S(idx).symbol = 'AMBA';
 idx = idx+1;
 S(idx).name = 'Baidu';
 S(idx).symbol = 'BIDU';
-S(idx).bought = '2017-10-03';
-S(idx).price = 247.64;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Bakkafrost';
@@ -106,10 +106,6 @@ S(idx).symbol = 'BAVA.CO';
 idx = idx+1;
 S(idx).name = 'CalAmp';
 S(idx).symbol = 'CAMP';
-S(idx).bought = '2017-01-27';
-S(idx).price = 15.12;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
 
 % idx = idx + 1;
 % S(idx).name = 'Carlsberg';
@@ -200,9 +196,9 @@ idx = idx + 1;
 S(idx).name = 'Facebook';
 S(idx).symbol = 'FB';
 
-idx = idx + 1;
-S(idx).name = 'FingerPrint Cards';
-S(idx).symbol = 'FING-B.ST';
+% idx = idx + 1;
+% S(idx).name = 'FingerPrint Cards';
+% S(idx).symbol = 'FING-B.ST';
 
 idx = idx+1;
 S(idx).name = 'FireEye';
@@ -240,13 +236,9 @@ idx = idx+1;
 S(idx).name = 'Gartner';
 S(idx).symbol = 'IT';
 
-idx = idx + 1;
-S(idx).name = 'GenMab';
-S(idx).symbol = 'GEN.CO';
-S(idx).bought = '2014-06-06';
-S(idx).price = 234;
-S(idx).stoploss = 400;
-S(idx).stoplossMax = -20;
+% idx = idx + 1;
+% S(idx).name = 'GenMab';
+% S(idx).symbol = 'GEN.CO';
 
 idx = idx + 1;
 S(idx).name = 'Gilead Sciences Inc.';
@@ -396,9 +388,9 @@ S(idx).price = 131.54;
 S(idx).stoploss = -15;
 S(idx).stoplossMax = -5;
 
-idx = idx+1;
-S(idx).name = 'Matas';
-S(idx).symbol = 'MATAS.CO';
+% idx = idx+1;
+% S(idx).name = 'Matas';
+% S(idx).symbol = 'MATAS.CO';
 
 idx = idx+1;
 S(idx).name = 'Medical Prognosis Institute';
@@ -530,10 +522,6 @@ S(idx).symbol = 'PREC.ST';
 idx = idx + 1;
 S(idx).name = 'Qualcomm';
 S(idx).symbol = 'QCOM';
-S(idx).bought = '2017-01-17';
-S(idx).price = 66.82;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -15;
 
 idx = idx+1;
 S(idx).name = 'ResMed';
