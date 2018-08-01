@@ -14,7 +14,7 @@ S(idx).price = 80.90;
 S(idx).stoploss = -5;
 S(idx).stoplossMax = -50;
 
-idx = 1;
+idx = idx + 1;
 S(idx).name = 'Acarix';
 S(idx).symbol = 'ACARIX.ST';
 
