@@ -247,6 +247,10 @@ S(idx).symbol = 'IT';
 idx = idx + 1;
 S(idx).name = 'Gilead Sciences Inc.';
 S(idx).symbol = 'GILD';
+S(idx).bought = '2016-07-07';
+S(idx).price = 85.21;
+S(idx).stoploss = 40;
+S(idx).stoplossMax = -20;
 
 idx = idx+1;
 S(idx).name = 'GomSpace';
@@ -305,12 +309,12 @@ S(idx).symbol = 'PI';
 % S(idx).symbol = 'INTC';
 
 idx = idx + 1;
-S(idx).name = 'Invisio Communications';
-S(idx).symbol = 'IVSO.ST';
-
-idx = idx + 1;
 S(idx).name = 'Illumina';
 S(idx).symbol = 'ILMN';
+S(idx).bought = '2017-09-01';
+S(idx).price = 204.07;
+S(idx).stoploss = 40;
+S(idx).stoplossMax = -20;
 
 idx = idx + 1;
 S(idx).name = 'Infineon Technologies AG';
@@ -333,6 +337,14 @@ S(idx).name = 'Intuitive Surgical';
 S(idx).symbol = 'ISRG';
 S(idx).bought = '2017-08-15';
 S(idx).price = 984.46;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -5;
+
+idx = idx + 1;
+S(idx).name = 'Invisio Communications';
+S(idx).symbol = 'IVSO.ST';
+S(idx).bought = '2017-11-23';
+S(idx).price = 76;
 S(idx).stoploss = -15;
 S(idx).stoplossMax = -5;
 
@@ -379,6 +391,10 @@ S(idx).symbol = 'KN';
 idx = idx + 1;
 S(idx).name = 'Lundbeck';
 S(idx).symbol = 'LUN.CO';
+S(idx).bought = '2017-08-30';
+S(idx).price = 393;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -5;
 
 % idx = idx + 1;
 % S(idx).name = 'Marine Harvest';
@@ -471,6 +487,10 @@ S(idx).symbol = 'NNIT.CO';
 idx = idx + 1;
 S(idx).name = 'Novozymes';
 S(idx).symbol = 'NZYM-B.CO';
+S(idx).bought = '2017-10-04';
+S(idx).price = 334.4;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'Nuevolution';
@@ -607,9 +627,9 @@ S(idx).symbol = 'TTWO';
 % S(idx).name = 'TDC';
 % S(idx).symbol = 'TDC.CO';
 
-idx = idx + 1;
-S(idx).name = 'TelaDoc';
-S(idx).symbol = 'TDOC.US';
+% idx = idx + 1;
+% S(idx).name = 'TelaDoc';
+% S(idx).symbol = 'TDOC.US';
 
 idx = idx + 1;
 S(idx).name = 'TerraVia';
