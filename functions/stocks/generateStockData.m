@@ -9,10 +9,6 @@ idx = 1;
 idx = 1;
 S(idx).name = 'Alphabet';
 S(idx).symbol = 'GOOGL';
-S(idx).bought = '2015-05-18';
-S(idx).price = 80.90;
-S(idx).stoploss = -5;
-S(idx).stoplossMax = -50;
 
 idx = idx + 1;
 S(idx).name = 'Acarix';
@@ -423,10 +419,6 @@ S(idx).stoplossMax = -5;
 idx = idx + 1;
 S(idx).name = 'Mellanox';
 S(idx).symbol = 'MLNX';
-S(idx).bought = '2016-05-18';
-S(idx).price = 42.58;
-S(idx).stoploss = -10;
-S(idx).stoplossMax = -30;
 
 % idx = idx + 1;
 % S(idx).name = 'Merlin Properties SA';
