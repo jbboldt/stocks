@@ -619,9 +619,9 @@ S(idx).symbol = 'TTWO';
 % S(idx).name = 'TDC';
 % S(idx).symbol = 'TDC.CO';
 
-% idx = idx + 1;
-% S(idx).name = 'TelaDoc';
-% S(idx).symbol = 'TDOC.US';
+idx = idx + 1;
+S(idx).name = 'TelaDoc';
+S(idx).symbol = 'TDOC.US';
 
 idx = idx + 1;
 S(idx).name = 'TerraVia';
