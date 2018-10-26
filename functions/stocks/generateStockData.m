@@ -63,6 +63,11 @@ S(idx).symbol = 'BIDU';
 % S(idx).name = 'Bang og Olufsen';
 % S(idx).symbol = 'BO.CO';
 
+idx = idx+1;
+S(idx).name = 'Baozun';
+S(idx).symbol = 'BZUN';
+
+
 % idx = idx+1;
 % S(idx).name = 'Barrick Gold Corporation';
 % S(idx).symbol = 'ABX';
@@ -492,6 +497,10 @@ S(idx).price = 19.9;
 S(idx).stoploss = -15;
 S(idx).stoplossMax = -5;
 
+idx = idx+1;
+S(idx).name = 'Nutanix';
+S(idx).symbol = 'NTNX';
+
 idx = idx + 1;
 S(idx).name = 'NVIDIA';
 S(idx).symbol = 'NVDA';
@@ -623,6 +632,10 @@ idx = idx + 1;
 S(idx).name = 'TelaDoc';
 S(idx).symbol = 'TDOC.US';
 
+idx = idx+1;
+S(idx).name = 'Tencent Holdings';
+S(idx).symbol = 'TCEHY';
+
 idx = idx + 1;
 S(idx).name = 'TerraVia';
 S(idx).symbol = 'TVIA';
@@ -642,6 +655,10 @@ S(idx).bought = '2015-04-07';
 S(idx).price = 12.5;
 S(idx).stoploss = -40;
 S(idx).stoplossMax = -100;
+
+idx = idx+1;
+S(idx).name = 'Trade Desk';
+S(idx).symbol = 'TTD';
 
 % idx = idx + 1;
 % S(idx).name = 'Tesla Motors';
@@ -674,6 +691,10 @@ S(idx).stoplossMax = -15;
 idx = idx + 1;
 S(idx).name = 'Under Armor';
 S(idx).symbol = 'UA';
+
+idx = idx + 1;
+S(idx).name = 'Upwork';
+S(idx).symbol = 'UPWK';
 
 % idx = idx + 1;
 % S(idx).name = 'Twitter';
