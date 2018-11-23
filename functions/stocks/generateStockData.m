@@ -14,6 +14,10 @@ idx = idx + 1;
 S(idx).name = 'Acarix';
 S(idx).symbol = 'ACARIX.ST';
 
+idx = idx + 1;
+S(idx).name = 'Ambu';
+S(idx).symbol = 'AMBU-B.CO';
+
 % idx = idx+1;
 % S(idx).name = 'Analogic Corporation';
 % S(idx).symbol = 'ALOG';
@@ -362,6 +366,10 @@ S(idx).symbol = 'IVISYS.ST';
 % S(idx).symbol = 'JYSK.CO';
 
 idx = idx + 1;
+S(idx).name = 'JD.com';
+S(idx).symbol = 'JD.US';
+
+idx = idx + 1;
 S(idx).name = 'Kandi';
 S(idx).symbol = 'KNDI';
 S(idx).bought = '2016-02-17';
@@ -457,9 +465,9 @@ S(idx).symbol = 'MDB.US';
 % S(idx).name = 'Netflix';
 % S(idx).symbol = 'NFLX';
 
-% idx = idx + 1;
-% S(idx).name = 'NKT';
-% S(idx).symbol = 'NKT.CO';
+idx = idx + 1;
+S(idx).name = 'NKT';
+S(idx).symbol = 'NKT.CO';
 
 idx = idx + 1;
 S(idx).name = 'NNIT';
