@@ -538,7 +538,7 @@ S(idx).symbol = 'PAT.V';
 
 idx = idx+1;
 S(idx).name = 'PayPal';
-S(idx).symbol = 'PYPL';
+S(idx).symbol = 'PYPL.US';
 
 idx = idx+1;
 S(idx).name = 'PhotoCat';
