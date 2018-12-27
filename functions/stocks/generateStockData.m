@@ -10,7 +10,7 @@ idx = 1;
 % S(idx).name = 'Alphabet';
 % S(idx).symbol = 'GOOGL';
 
-idx = idx + 1;
+idx = 1;
 S(idx).name = 'Acarix';
 S(idx).symbol = 'ACARIX.ST';
 
