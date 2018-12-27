@@ -260,8 +260,8 @@ S(idx).stoplossMax = -20;
 idx = idx+1;
 S(idx).name = 'GomSpace';
 S(idx).symbol = 'GOMX.ST';
-S(idx).bought = '2017-08-07';
-S(idx).price = 65;
+S(idx).bought = '2018-11-28';
+S(idx).price = 12.24;
 S(idx).stoploss = 40;
 S(idx).stoplossMax = -20;
 
@@ -368,6 +368,10 @@ S(idx).symbol = 'IVISYS.ST';
 idx = idx + 1;
 S(idx).name = 'JD.com';
 S(idx).symbol = 'JD.US';
+S(idx).bought = '2018-12-03';
+S(idx).price = 21.9799;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'Kandi';
@@ -421,13 +425,13 @@ S(idx).stoplossMax = -5;
 % S(idx).name = 'Matas';
 % S(idx).symbol = 'MATAS.CO';
 
-idx = idx+1;
-S(idx).name = 'Medical Prognosis Institute';
-S(idx).symbol = 'MPI.ST';
-S(idx).bought = '2017-11-08';
-S(idx).price = 13.25;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -5;
+% idx = idx+1;
+% S(idx).name = 'Medical Prognosis Institute';
+% S(idx).symbol = 'MPI.ST';
+% S(idx).bought = '2017-11-08';
+% S(idx).price = 13.25;
+% S(idx).stoploss = -15;
+% S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'Mellanox';
@@ -500,14 +504,14 @@ S(idx).stoplossMax = -5;
 idx = idx + 1;
 S(idx).name = 'Nuevolution';
 S(idx).symbol = 'NUE.ST';
-S(idx).bought = '2017-11-08';
-S(idx).price = 19.9;
-S(idx).stoploss = -15;
-S(idx).stoplossMax = -5;
 
 idx = idx+1;
 S(idx).name = 'Nutanix';
 S(idx).symbol = 'NTNX';
+S(idx).bought = '2018-12-03';
+S(idx).price = 44.5;
+S(idx).stoploss = -15;
+S(idx).stoplossMax = -5;
 
 idx = idx + 1;
 S(idx).name = 'NVIDIA';
