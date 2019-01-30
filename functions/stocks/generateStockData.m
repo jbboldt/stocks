@@ -481,9 +481,9 @@ S(idx).symbol = 'MDB.US';
 % S(idx).name = 'NKT';
 % S(idx).symbol = 'NKT.CO';
 
-% idx = idx + 1;
-% S(idx).name = 'NNIT';
-% S(idx).symbol = 'NNIT.CO';
+idx = idx + 1;
+S(idx).name = 'NNIT';
+S(idx).symbol = 'NNIT.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Nordea';
@@ -747,6 +747,10 @@ S(idx).stoplossMax = -100;
 % idx=idx+1;
 % S(idx).name = 'Vestas';
 % S(idx).symbol = 'VWS.CO';
+
+idx=idx+1;
+S(idx).name = 'Volkswagen';
+S(idx).symbol = 'VOW.XETRA';
 
 % idx = idx + 1;
 % S(idx).name = 'Westport Innovations';
