@@ -545,6 +545,10 @@ S(idx).symbol = 'ON';
 % S(idx).symbol = 'PLT.MI';
 
 idx = idx+1;
+S(idx).name = 'Pandora';
+S(idx).symbol = 'PNDORA.CO';
+
+idx = idx+1;
 S(idx).name = 'Patriot One';
 S(idx).symbol = 'PAT.V';
 
