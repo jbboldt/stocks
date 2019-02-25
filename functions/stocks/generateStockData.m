@@ -305,6 +305,10 @@ S(idx).symbol = 'GH';
 % S(idx).name = 'Hugo Games';
 % S(idx).symbol = 'HUGO.OL';
 
+idx = idx+1;
+S(idx).name = 'HubSpot';
+S(idx).symbol = 'HUBS';
+
 % idx = idx + 1;
 % S(idx).name = 'IBM';
 % S(idx).symbol = 'IBM';
@@ -477,6 +481,10 @@ S(idx).symbol = 'MDB.US';
 % S(idx).name = 'Netflix';
 % S(idx).symbol = 'NFLX';
 
+idx = idx + 1;
+S(idx).name = 'NextEra';
+S(idx).symbol = 'NEE';
+
 % idx = idx + 1;
 % S(idx).name = 'NKT';
 % S(idx).symbol = 'NKT.CO';
@@ -631,6 +639,10 @@ S(idx).stoplossMax = -10;
 % idx=idx+1;
 % S(idx).name = 'Southwest Airlines Co.';
 % S(idx).symbol = 'LUV';
+ 
+idx=idx+1;
+S(idx).name = 'The Scottish Salmon Company';
+S(idx).symbol = 'SSC.OL';
 
 idx = idx+1;
 S(idx).name = 'Splunk';
