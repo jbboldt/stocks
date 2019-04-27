@@ -8,14 +8,14 @@ hA = multiAxis( 1, 1, ...
     'fontName', 'Calibri', ...
     'fontSize', 20, 'singleXaxis', true, 'verticalMargin', 0.01 );
 hold on
-[~,ma] = movavg( stk.day.close, 1,mA(4), 0 );
+ma = movavg( stk.day.close, 'linear', mA(4) );
 hP(5)=plot(stk.day.sdn,log10(ma), 'color',getColor(2,-50),'linewidth',2);
 hold on
-[~,ma] = movavg( stk.day.close, 1,mA(3), 0 );
+ma = movavg( stk.day.close, 'linear', mA(3) );
 hP(4)=plot(stk.day.sdn,log10(ma), 'color',getColor(2,50),'linewidth',2);
-[~,ma] = movavg( stk.day.close, 1,mA(2), 0 );
+ma = movavg( stk.day.close, 'linear', mA(2) );
 hP(3)=plot(stk.day.sdn,log10(ma), 'color',getColor(5),'linewidth',2);
-[~,ma] = movavg( stk.day.close, 1, mA(1), 0 );
+ma = movavg( stk.day.close, 'linear', mA(1) );
 hP(2)=plot(stk.day.sdn,log10(ma), 'color',getColor(11),'linewidth',2);
 hP(1)=plot(stk.day.sdn,log10(stk.day.close),'k', 'linewidth', 2);
 datetick('x','dd-mm-yy')

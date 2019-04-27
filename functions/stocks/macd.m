@@ -1,11 +1,11 @@
 function [ trend, macdLine, signalLine, macdHist, lastSignal ] = macd( price, period ) 
 
-[~, maLong ] = movavg( price, 1, period( 1 ), 'e' );
-[~, maShort ] = movavg( price, 1, period( 2 ), 'e' );
+maLong = movavg( price, 'exponential', period( 1 ) );
+maShort = movavg( price, 'exponential', period( 2 ) );
 
 macdLine = ( maShort - maLong ); 
 
-[~, signalLine ] = movavg( macdLine, 1, period( 3 ), 'e' );
+signalLine = movavg( macdLine, 'exponential', period( 3 ) );
 
 macdHist = macdLine - signalLine;
 

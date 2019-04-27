@@ -1,8 +1,8 @@
 function mode = movingAverageMode( price, ma ) 
 
-[~, maShort ] = movavg( price, 1, ma( 1 ), 0 );
-[~, maMedium ] = movavg( price, 1, ma( 2 ), 0 );
-[~, maLong ] = movavg( price, 1, ma( 3 ), 0 );
+[maShort ] = movavg( price, 'linear', ma( 1 ) );
+[maMedium ] = movavg( price, 'linear', ma( 2 ) );
+[maLong ] = movavg( price, 'linear', ma( 3 ) );
 
 mode = ( maMedium >= maLong ) * 4 + ...
     ( maShort >= maLong ) * 2 + ...

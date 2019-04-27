@@ -31,9 +31,9 @@ S(idx).symbol = 'ACARIX.ST';
 % S(idx).symbol = 'AJINY';
 
 
-idx = idx + 1;
-S(idx).name = 'Ambarella';
-S(idx).symbol = 'AMBA';
+% idx = idx + 1;
+% S(idx).name = 'Ambarella';
+% S(idx).symbol = 'AMBA';
 % S(idx).bought = '2015-05-18';
 % S(idx).price = 79,72;
 % S(idx).stoploss = -99;
@@ -42,6 +42,10 @@ S(idx).symbol = 'AMBA';
 % idx = idx + 1;
 % S(idx).name = 'Apple';
 % S(idx).symbol = 'AAPL';
+
+idx = idx + 1;
+S(idx).name = 'Arista Networks';
+S(idx).symbol = 'ANET.US';
 
 % idx = idx + 1;
 % S(idx).name = 'ASML Holding';
@@ -485,9 +489,9 @@ idx = idx + 1;
 S(idx).name = 'NextEra';
 S(idx).symbol = 'NEE';
 
-% idx = idx + 1;
-% S(idx).name = 'NKT';
-% S(idx).symbol = 'NKT.CO';
+idx = idx + 1;
+S(idx).name = 'NEL Hydrogen ASA';
+S(idx).symbol = 'NELO.ST';
 
 idx = idx + 1;
 S(idx).name = 'NNIT';
@@ -537,12 +541,20 @@ idx = idx + 1;
 S(idx).name = 'ON Semiconductor';
 S(idx).symbol = 'ON';
 
+idx = idx + 1;
+S(idx).name = 'Orphazyme';
+S(idx).symbol = 'ORPHA.CO';
+
 % idx = idx + 1;
 % S(idx).name = 'Onxeo';
 % S(idx).symbol = 'ONXEO.CO';
 % S(idx).bought = '2014-09-01';
 % S(idx).price = 49.55;
 % S(idx).stoploss = -10;
+
+idx = idx + 1;
+S(idx).name = 'Orphazyne';
+S(idx).symbol = 'ORPHA.CO';
 
 % idx = idx + 1;
 % S(idx).name = 'Philips';
@@ -680,9 +692,9 @@ S(idx).symbol = 'TVIA';
 % S(idx).stoploss = -50;
 % S(idx).stoplossMax = -50;
 
-% idx = idx+1;
-% S(idx).name = 'TEVA';
-% S(idx).symbol = 'TEVA';
+idx = idx+1;
+S(idx).name = 'TEVA';
+S(idx).symbol = 'TEVA';
 
 idx = idx + 1;
 S(idx).name = 'The Tile Shop';
@@ -772,10 +784,6 @@ S(idx).symbol = 'VOW.XETRA';
 % S(idx).name = 'Westport Innovations';
 % S(idx).symbol = 'WPRT';
 
-% idx = idx + 1;
-% S(idx).name = 'Volkswagen DE';
-% S(idx).symbol = 'VOW.DE';
-
 idx = idx + 1;
 S(idx).name = 'William Demant Holding';
 S(idx).symbol = 'WDH.CO';
@@ -791,6 +799,10 @@ S(idx).stoplossMax = -100;
 % idx = idx + 1;
 % S(idx).name = 'Yahoo';
 % S(idx).symbol = 'YHOO';
+
+idx = idx + 1;
+S(idx).name = 'Xilinx';
+S(idx).symbol = 'XLNX.US';
 
 idx = idx + 1;
 S(idx).name = 'Zealand Pharma';

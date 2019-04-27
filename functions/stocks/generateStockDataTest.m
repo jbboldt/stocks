@@ -8,9 +8,8 @@ S(idx).stoploss = 0;
 S(idx).stoplossMax = -5;
 
 idx = idx + 1;
-S(idx).name = 'FingerPrint Cards';
-S(idx).symbol = 'FING-B.ST';
-
+S(idx).name = 'Veloxis Pharmacy';
+S(idx).symbol = 'VELO.CO';
 
 return
 

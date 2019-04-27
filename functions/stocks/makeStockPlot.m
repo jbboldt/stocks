@@ -59,13 +59,13 @@ switch plotType
             line([1, nDay + 5],log10([DG.stockHist.price,DG.stockHist.price]), ...
                 'color', [.7 .7 .7], 'linewidth', 3)
         end
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 5, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 5 );
         plot( log10( ma( DG.cIdx ) ) , 'r', 'linewidth', 2 )
         hold on
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 20, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 20 );
         plot( log10( ma( DG.cIdx ) ) , 'g', 'linewidth', 2 )
         
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 60, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 60 );
         plot( log10( ma( DG.cIdx ) ) , 'b', 'linewidth', 2 )
         
         legend( '5', '20', '60', 'location', 'northwest' );
@@ -89,13 +89,13 @@ switch plotType
                 'color', [.7 .7 .7], 'linewidth', 2)
         end
         
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 60, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 60 );
         plot( log10( ma( DG.cIdx ) ) , 'b', 'linewidth', 1 )
         hold on
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 100, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 100 );
         plot( log10( ma( DG.cIdx ) ) , 'm', 'linewidth', 1 )
         
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 200, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 200 );
         plot( log10( ma( DG.cIdx ) ) , 'c', 'linewidth', 1 )
         
         legend( '60', '100', '200', 'location', 'northwest' );
@@ -124,7 +124,7 @@ switch plotType
         maDiff = [];
         for mM = [5 10 20 30 80 160 320];
             
-            [~, ma ]=movavg( DG.stockHist.day.close, 1, mM, 0 );
+            ma = movavg( DG.stockHist.day.close, 'linear', mM );
             plot( log10( ma( DG.cIdx ) ) , 'linewidth', 1.2, 'color', hotCM(hCI,:));
             hold on
             hCI = hCI + 8;
@@ -148,9 +148,9 @@ switch plotType
     case 'bollinger'
         
         axes( hA( 1 ) )
-        [~, ma5 ]=movavg( DG.stockHist.day.close, 1, 5, 0 );
-        [~, ma20 ]=movavg( DG.stockHist.day.close, 1, 20, 0 );
-        [~, ma60 ]=movavg( DG.stockHist.day.close, 1, 60, 0 );
+        ma5=movavg( DG.stockHist.day.close, 'linear', 5 );
+        ma20=movavg( DG.stockHist.day.close, 'linear', 20 );
+        ma60=movavg( DG.stockHist.day.close, 'linear', 60 );
         
         line( [ 1 length( DG.cIdx ) ], [ 0 0 ], 'color', [ 0 0 0 ], 'linewidth', 3 );
         plot( log10(ma5( DG.cIdx ))-log10(ma20( DG.cIdx )) , 'linewidth', 2, 'color', [ 1 .7 .7 ] .* 0.8 )
@@ -172,17 +172,17 @@ switch plotType
         end
         
         lw = 1.5;
-        [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 60, 2 );
+        [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 'WindowSize', 60 );
         hp(1) = plot( log10( uppr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(4) );
         plot( log10( lowr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(4) );
         plot( log10( mid( DG.cIdx ) ) , ':', 'linewidth', lw, 'color', getColor(4) );
         
-        [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 20, 2 );
+        [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 'WindowSize', 20 );
         hp(2) = plot( log10( uppr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(3) );
         plot( log10( lowr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(3) );
         plot( log10( mid( DG.cIdx ) ) , ':', 'linewidth', lw, 'color', getColor(3));
         
-        [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 5, 2 );
+        [ mid, uppr, lowr] = bollinger( DG.stockHist.day.close, 'WindowSize', 5 );
         hp(3) = plot( log10( uppr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(2) );
         plot( log10( lowr( DG.cIdx ) ) , 'linewidth', lw, 'color', getColor(2) );
         hold on
@@ -332,13 +332,13 @@ switch plotType
                 'color', [.7 .7 .7], 'linewidth', 3)
         end
         
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 5, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 5 );
         plot( log10( ma( DG.cIdx ) ) , 'r', 'linewidth', 2 )
         hold on
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 20, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 20 );
         plot( log10( ma( DG.cIdx ) ) , 'g', 'linewidth', 2 )
         
-        [~, ma ]=movavg( DG.stockHist.day.close, 1, 60, 0 );
+        ma = movavg( DG.stockHist.day.close, 'linear', 60 );
         plot( log10( ma( DG.cIdx ) ) , 'b', 'linewidth', 2 )
         
         legend( '5', '20', '60', 'location', 'northwest' );
@@ -358,11 +358,12 @@ switch plotType
             [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
             max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);
     otherwise
-        hhl = highlow( log10( DG.stockHist.day.high( DG.cIdx ) ), ...
-            log10( DG.stockHist.day.low( DG.cIdx ) ), ...
-            log10( DG.stockHist.day.close( DG.cIdx ) ), ...
-            log10( DG.stockHist.day.open( DG.cIdx ) ), [ 0 0 0 ] );
-        set( hhl,'linewidth', 1.8 )
+%         hhl = highlow( log10( DG.stockHist.day.high( DG.cIdx ) ), ...
+%             log10( DG.stockHist.day.low( DG.cIdx ) ), ...
+%             log10( DG.stockHist.day.close( DG.cIdx ) ), ...
+%             log10( DG.stockHist.day.open( DG.cIdx ) ), [ 0 0 0 ] );
+        hhl = plot(log10(DG.stockHist.day.close( DG.cIdx )));
+        set( hhl,'linewidth', 1.8, 'Color', [0,0,0] );
         set(hA(2),'YLim', ...
             [ min(log10( DG.stockHist.day.high( DG.cIdx )))*0.99, ...
             max(log10( DG.stockHist.day.high( DG.cIdx )))*1.01]);

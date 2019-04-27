@@ -259,15 +259,15 @@ for c = 1 : length(stockHist)
   
   fName{idx} = makeStockPlot(stockHist(c), 'macd', 200, targetDir );
   idx=idx+1;
-  
+   
   fName{idx} = makeStockPlot(stockHist(c), 'bollinger', 200, targetDir );
   idx=idx+1;
   
   fName{idx} = makeStockPlot(stockHist(c), 'maLong', 2000, targetDir );
   idx=idx+1;
   
-  fName{idx} = makeStockPlotSimple(stockHist(c),'candle',40,targetDir);
-  idx=idx+1;
+%   fName{idx} = makeStockPlotSimple(stockHist(c),'candle',40,targetDir);
+%   idx=idx+1;
   
   fName{idx} = makeStockPlot(stockHist(c), 'maLongMulti', 1000, targetDir );
   idx=idx+1;

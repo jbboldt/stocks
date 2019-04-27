@@ -10,8 +10,8 @@ negPC( priceChange >= 0 ) = 0;
 
 negPC = abs( negPC );
 
-[~, posMA ] = movavg( posPC, 1, periods );
-[~, negMA ] = movavg( negPC, 1, periods );
+posMA = movavg( posPC, 'linear', periods );
+negMA = movavg( negPC, 'linear', periods );
 
 posMA( 1:2 ) = 0;
 negMA( 1:2 ) = 1;
