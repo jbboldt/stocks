@@ -2,9 +2,9 @@ idx = 1;
 S(idx).name = 'Agilic';
 S(idx).symbol = 'AGILC.CO';
 
-idx = idx + 1;
-S(idx).name = 'ALK Abello';
-S(idx).symbol = 'ALK-B.CO';
+% idx = idx + 1;
+% S(idx).name = 'ALK Abello';
+% S(idx).symbol = 'ALK-B.CO';
 
 % idx = 1;
 % S(idx).name = 'Alphabet';
@@ -18,7 +18,7 @@ S(idx).symbol = 'ALK-B.CO';
 % S(idx).name = 'Ambu';
 % S(idx).symbol = 'AMBU-B.CO';
 
-idx = 1 + 1;
+idx = idx + 1;
 S(idx).name = 'American Tower';
 S(idx).symbol = 'AMT';
 
@@ -53,14 +53,30 @@ S(idx).symbol = 'APPN';
 idx = idx + 1;
 S(idx).name = 'AquaBounty Technologies, Inc';
 S(idx).symbol = 'AQB.US';
+S(idx).bought = '2020-06-22';
+S(idx).price = 3.05;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Arista Networks';
 % S(idx).symbol = 'ANET.US';
 
 idx = idx + 1;
+S(idx).name = 'ASML';
+S(idx).symbol = 'ASML.AS';
+S(idx).bought = '2020-07-20';
+S(idx).price = 243.65;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
+
+idx = idx + 1;
 S(idx).name = 'Atlantic Sapphire';
 S(idx).symbol = 'AASZF.US';
+S(idx).bought = '2020-05-27';
+S(idx).price = 121;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx=idx+1;
 % S(idx).name = 'Austevoll';
@@ -90,7 +106,6 @@ S(idx).price = 38.2;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
-
 % idx = idx+1;
 % S(idx).name = 'Barrick Gold Corporation';
 % S(idx).symbol = 'ABX';
@@ -98,7 +113,7 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Bavarian Nordic';
 S(idx).symbol = 'BAVA.CO';
-S(idx).bought = '2019-03-23';
+S(idx).bought = '2020-03-23';
 S(idx).price = 109;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
@@ -132,13 +147,28 @@ S(idx).stoplossMax = -99;
 % S(idx).symbol = 'BIOPOR.CO';
  
 idx = idx + 1;
+S(idx).name = 'Blackline';
+S(idx).symbol = 'BL.US';
+S(idx).bought = '2020-08-31';
+S(idx).price = 87.3;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
+
+idx = idx + 1;
 S(idx).name = 'BMW';
 S(idx).symbol = 'BMW.XETRA';
+S(idx).bought = '2020-05-27';
+S(idx).price = 54.93;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Beyond Meat';
 S(idx).symbol = 'BYND';
-
+S(idx).bought = '2020-06-09';
+S(idx).price = 152.8;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx+1;
 % S(idx).name = 'BYD Company';
@@ -183,6 +213,18 @@ S(idx).symbol = 'CHR.CO';
 idx = idx + 1;
 S(idx).name = 'Equinor';
 S(idx).symbol = 'EQNR.OL';
+S(idx).bought = '2020-06-09';
+S(idx).price = 151.3;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
+
+idx = idx + 1;
+S(idx).name = 'Equinix';
+S(idx).symbol = 'EQIX.US';
+S(idx).bought = '2020-10-09';
+S(idx).price = 828;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'E.ON';
@@ -247,6 +289,10 @@ S(idx).stoplossMax = -99;
 idx = idx+1;
 S(idx).name = 'Enphase Energy';
 S(idx).symbol = 'ENPH.US';
+S(idx).bought = '2020-08-05';
+S(idx).price = 75.4;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx+1;
 S(idx).name = 'Etsy';
@@ -283,6 +329,10 @@ S(idx).symbol = 'FSLR';
 idx = idx + 1;
 S(idx).name = 'FLSmidth';
 S(idx).symbol = 'FLS.CO';
+S(idx).bought = '2020-09-02';
+S(idx).price = 785.5;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Gamesa';
@@ -343,6 +393,14 @@ S(idx).stoplossMax = -20;
 % idx = idx + 1;
 % S(idx).name = 'Hafslund B';
 % S(idx).symbol = 'HNB.OL';
+
+idx = idx+1;
+S(idx).name = 'HelloFresh';
+S(idx).symbol = 'HFG.XETRA';
+S(idx).bought = '2020-09-01';
+S(idx).price = 44.02;
+S(idx).stoploss = 99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Hewlett-Packard';
@@ -421,6 +479,14 @@ S(idx).symbol = 'ISRG';
 % S(idx).name = 'iRobot';
 % S(idx).symbol = 'IRBT';
 
+idx = idx + 1;
+S(idx).name = 'ISS';
+S(idx).symbol = 'ISS.CO';
+S(idx).bought = '2020-03-24';
+S(idx).price = 87;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
+
 % idx = idx+1;
 % S(idx).name = 'ivisys';
 % S(idx).symbol = 'IVISYS.ST';
@@ -429,9 +495,9 @@ S(idx).symbol = 'ISRG';
 % S(idx).name = 'Jyske Bank';
 % S(idx).symbol = 'JYSK.CO';
 
-idx = idx + 1;
-S(idx).name = 'JD.com';
-S(idx).symbol = 'JD.US';
+% idx = idx + 1;
+% S(idx).name = 'JD.com';
+% S(idx).symbol = 'JD.US';
 
 idx = idx + 1;
 S(idx).name = 'Kandi';
@@ -464,6 +530,14 @@ S(idx).symbol = 'KONSOL.CO';
 % idx = idx + 1;
 % S(idx).name = 'LinkedIN';
 % S(idx).symbol = 'LNKD';
+
+idx = idx + 1;
+S(idx).name = 'Logitech';
+S(idx).symbol = 'LOGN.SW';
+S(idx).bought = '2020-09-28';
+S(idx).price = 67.82;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Lundbeck';
@@ -618,14 +692,16 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Odico';
 S(idx).symbol = 'odico.co';
-
-
+S(idx).bought = '2020-09-11';
+S(idx).price = 15.85;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Orphazyme';
 S(idx).symbol = 'ORPHA.CO';
-S(idx).bought = '2019-04-26';
-S(idx).price = 58.20;
+S(idx).bought = '2020-10-08';
+S(idx).price = 67.9;
 S(idx).stoploss = -99;
 S(idx).stoplossMax = -99;
 
@@ -677,6 +753,14 @@ S(idx).stoplossMax = -100;
 % S(idx).symbol = 'QCOM';
 
 idx = idx+1;
+S(idx).name = 'QuantaFuel';
+S(idx).symbol = 'QFUEL-ME.OL';
+S(idx).bought = '2020-09-16';
+S(idx).price = 58.9;
+S(idx).stoploss = -100;
+S(idx).stoplossMax = -100;
+
+idx = idx+1;
 S(idx).name = 'Redfin';
 S(idx).symbol = 'RDFN.US';
 S(idx).bought = '2020-02-28';
@@ -692,9 +776,9 @@ idx = idx + 1;
 S(idx).name = 'Rockwoll A';
 S(idx).symbol = 'ROCK-A.CO';
 
-idx = idx + 1;
-S(idx).name = 'Roku';
-S(idx).symbol = 'ROKU';
+% idx = idx + 1;
+% S(idx).name = 'Roku';
+% S(idx).symbol = 'ROKU';
 
 % idx = idx + 1;
 % S(idx).name = 'RTX';
@@ -727,6 +811,10 @@ S(idx).stoplossMax = -99;
 idx = idx + 1;
 S(idx).name = 'Scape Technologies';
 S(idx).symbol = 'SCAPE.CO';
+S(idx).bought = '2020-07-29';
+S(idx).price = 9.8;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx + 1;
 S(idx).name = 'Sea Limited';
@@ -776,6 +864,10 @@ S(idx).symbol = 'SWAV';
 idx = idx+1;
 S(idx).name = 'SolarEdge Technologies';
 S(idx).symbol = 'SEDG.US';
+S(idx).bought = '2020-08-05';
+S(idx).price = 206.57;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 idx = idx+1;
 S(idx).name = 'Sydbank';
@@ -820,6 +912,10 @@ S(idx).stoplossMax = -99;
 idx = idx+1;
 S(idx).name = 'Trade Desk';
 S(idx).symbol = 'TTD';
+S(idx).bought = '2019-11-13';
+S(idx).price = 226.5;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Tesla Motors';
@@ -856,6 +952,14 @@ S(idx).symbol = 'TWLO';
 % idx = idx + 1;
 % S(idx).name = 'Under Armor';
 % S(idx).symbol = 'UA';
+
+idx = idx+1;
+S(idx).name = 'Unity Software';
+S(idx).symbol = 'U.US';
+S(idx).bought = '2020-09-22';
+S(idx).price = 83.52;
+S(idx).stoploss = -99;
+S(idx).stoplossMax = -99;
 
 % idx = idx + 1;
 % S(idx).name = 'Upwork';
@@ -921,9 +1025,9 @@ S(idx).price = 113.40;
 S(idx).stoploss = -100;
 S(idx).stoplossMax = -100;
 
-idx = idx + 1;
-S(idx).name = 'Xinyi Solar Holdings';
-S(idx).symbol = 'XNYIF.US';
+% idx = idx + 1;
+% S(idx).name = 'Xinyi Solar Holdings';
+% S(idx).symbol = 'XNYIF.US';
 
 % idx = idx + 1;
 % S(idx).name = 'Zealand Pharma';
